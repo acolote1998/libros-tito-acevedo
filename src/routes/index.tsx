@@ -11,7 +11,7 @@ function Index() {
         <h1>Tito Acevedo</h1>
         <h1>Libros</h1>
       </div>
-      <div className="text-white text-md font-light flex items-center text-center flex-col gap-3 pt-10">
+      <div className="text-white text-md flex items-center text-center flex-col gap-3 pt-10">
         <h2>ESCRITOR DE CULTURA ARGENTINA</h2>
         <h2>RETALOS E HISTORIAS DE MIS VIAJES POR EL MUNDO</h2>
         <h2>LIBROS CON IDENTIDAD Y RAICES</h2>
