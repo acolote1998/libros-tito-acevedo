@@ -10,11 +10,17 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as RegionsIndexRouteImport } from './routes/regions/index'
 import { Route as BooksIndexRouteImport } from './routes/books/index'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RegionsIndexRoute = RegionsIndexRouteImport.update({
+  id: '/regions/',
+  path: '/regions/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BooksIndexRoute = BooksIndexRouteImport.update({
@@ -26,27 +32,31 @@ const BooksIndexRoute = BooksIndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/books': typeof BooksIndexRoute
+  '/regions': typeof RegionsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/books': typeof BooksIndexRoute
+  '/regions': typeof RegionsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/books/': typeof BooksIndexRoute
+  '/regions/': typeof RegionsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/books'
+  fullPaths: '/' | '/books' | '/regions'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/books'
-  id: '__root__' | '/' | '/books/'
+  to: '/' | '/books' | '/regions'
+  id: '__root__' | '/' | '/books/' | '/regions/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BooksIndexRoute: typeof BooksIndexRoute
+  RegionsIndexRoute: typeof RegionsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -56,6 +66,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/regions/': {
+      id: '/regions/'
+      path: '/regions'
+      fullPath: '/regions'
+      preLoaderRoute: typeof RegionsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/books/': {
@@ -71,6 +88,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BooksIndexRoute: BooksIndexRoute,
+  RegionsIndexRoute: RegionsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
