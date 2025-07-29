@@ -1,10 +1,11 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
   component: Index,
 });
 
 function Index() {
+  const navigate = useNavigate();
   return (
     <div className="bg-[url('./herodarkervertical.png')] bg-cover w-[100vw] h-[100vh]">
       <div className="text-6xl text-white font-bold flex items-center text-center flex-col gap-3 pt-130">
@@ -18,7 +19,14 @@ function Index() {
       </div>
       <div className="flex justify-center cursor-pointer">
         <div className="bg-orange-300 rounded-lg p-3 mt-10 w-[50vw] text-center">
-          <p className="text-xl font-bold">VER LIBROS</p>
+          <p
+            className="text-xl font-bold"
+            onClick={() => {
+              navigate({ to: "/books" });
+            }}
+          >
+            VER LIBROS
+          </p>
         </div>
       </div>
     </div>
