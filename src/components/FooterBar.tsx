@@ -6,6 +6,7 @@ const FooterBar = () => {
   return (
     <div
       className="
+    pb-2
     flex
     cursor-pointer
     justify-center

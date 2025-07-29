@@ -1,11 +1,22 @@
-import { createRootRoute, Outlet } from "@tanstack/react-router";
+import {
+  createRootRoute,
+  Outlet,
+  useRouterState,
+} from "@tanstack/react-router";
 import FooterBar from "../components/FooterBar";
 
 export const Route = createRootRoute({
-  component: () => (
+  component: RootComponent,
+});
+
+function RootComponent() {
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+
+  return (
     <>
-      <FooterBar />
+      {/* Show FooterBar on all routes except `/` */}
+      {pathname !== "/" && <FooterBar />}
       <Outlet />
     </>
-  ),
-});
+  );
+}
