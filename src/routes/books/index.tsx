@@ -7,9 +7,9 @@ export const Route = createFileRoute("/books/")({
 
 function RouteComponent() {
   const books = [
-    { img: "./placeholderbook.png", title: "Titulo", desc: "Desc" },
-    { img: "./placeholderbook.png", title: "Titulo", desc: "Desc" },
-    { img: "./placeholderbook.png", title: "Titulo", desc: "Desc" },
+    { img: "./placeholderbook.png", title: "Titulo 1", desc: "Desc 1" },
+    { img: "./placeholderbook.png", title: "Titulo 2", desc: "Desc 2" },
+    { img: "./placeholderbook.png", title: "Titulo 3", desc: "Desc 3" },
   ];
   return (
     <div>
