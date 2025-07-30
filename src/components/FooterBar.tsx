@@ -12,7 +12,7 @@ const FooterBar = () => {
     justify-center
     items-center
     align-middle
-    absolute
+    fixed
     bottom-0
     bg-orange-200
     w-full

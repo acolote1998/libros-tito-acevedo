@@ -5,13 +5,12 @@ const HeaderBar = () => {
   return (
     <div
       className="
-    
+    sticky
     flex
     cursor-pointer
     justify-center
     items-center
     align-middle
-    absolute
     top-0
     bg-orange-200
     w-full
