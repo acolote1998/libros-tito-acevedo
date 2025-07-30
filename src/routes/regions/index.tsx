@@ -12,9 +12,21 @@ export const Route = createFileRoute("/regions/")({
 
 function RouteComponent() {
   const regions = [
-    { img: "./ar-flag.png", regionKey: "en", desc: "Inglaterra" },
-    { img: "./ar-flag.png", regionKey: "mx", desc: "Mexico" },
+    { img: "./ar-flag.png", regionKey: "br", desc: "Brasil" },
+    { img: "./ar-flag.png", regionKey: "mx", desc: "México" },
+    { img: "./ar-flag.png", regionKey: "us", desc: "Estados Unidos" },
+    { img: "./ar-flag.png", regionKey: "ca", desc: "Canadá" },
+    { img: "./ar-flag.png", regionKey: "es", desc: "España" },
+    { img: "./ar-flag.png", regionKey: "it", desc: "Italia" },
+    { img: "./ar-flag.png", regionKey: "fr", desc: "Francia" },
     { img: "./ar-flag.png", regionKey: "de", desc: "Alemania" },
+    { img: "./ar-flag.png", regionKey: "uk", desc: "Inglaterra" },
+    { img: "./ar-flag.png", regionKey: "pl", desc: "Polonia" },
+    { img: "./ar-flag.png", regionKey: "se", desc: "Suecia" },
+    { img: "./ar-flag.png", regionKey: "nl", desc: "Países Bajos" },
+    { img: "./ar-flag.png", regionKey: "in", desc: "India" },
+    { img: "./ar-flag.png", regionKey: "jp", desc: "Japón" },
+    { img: "./ar-flag.png", regionKey: "au", desc: "Australia" },
   ];
   return (
     <div>
