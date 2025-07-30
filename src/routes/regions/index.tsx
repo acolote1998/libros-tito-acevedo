@@ -30,7 +30,10 @@ function RouteComponent() {
   ];
   return (
     <div>
-      <h1 className="text-3xl mt-16 text-center">Regiones</h1>
+      <h1 className="text-5xl font-semibold mt-2 mb-2 text-center">Regiones</h1>
+      <h2 className="text-2xl text-center mt-4 mb-2">
+        Seleccione la región más próxima a su ubicación
+      </h2>
       <div className="grid grid-cols-2 gap-4 p-3">
         {regions.map((b) => (
           <RegionItemComponent {...b} />

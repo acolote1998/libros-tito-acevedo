@@ -28,7 +28,7 @@ function RouteComponent() {
   ];
   return (
     <div>
-      <h1 className="text-3xl mt-16 text-center">Libros</h1>
+      <h1 className="text-5xl font-semibold mt-2 mb-2 text-center">Libros</h1>
       <div className="grid grid-cols-2 gap-4 p-3">
         {books.map((b) => (
           <BookItemComponent {...b} />
