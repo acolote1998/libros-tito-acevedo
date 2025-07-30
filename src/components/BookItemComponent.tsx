@@ -1,12 +1,12 @@
 import { useNavigate } from "@tanstack/react-router";
 import type { BookItem } from "../types/types";
-const BookItemComponent = ({ desc, img, title }: BookItem) => {
+const BookItemComponent = ({ desc, img, title, id }: BookItem) => {
   const navigate = useNavigate();
   return (
     <div
       className="bg-orange-200 flex items-center w-full p-5 rounded-2xl border-1 cursor-pointer"
       onClick={() => {
-        navigate({ to: "/regions", search: { book: title } });
+        navigate({ to: "/regions", search: { bookId: id } });
       }}
     >
       <img src={img}></img>
