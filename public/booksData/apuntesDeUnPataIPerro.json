@@ -1,0 +1,35 @@
+{
+  "desc": "A MANERA DE PROLOGO. Les diré que no tengo grandes cosas materiales. Una casa sencilla, algunas obras de arte y un auto. Coincido plenamente con el Indio Solari en aquello que “… el lujo es vulgaridad…”. Pero sí hay algo en que gasté lo que pude: Viajar. Sea por trabajo o placer la vida me dio esa oportunidad en reiteradas etapas de mi vida. De joven mochila al hombro salí en camión desde Avellaneda con destino a las Cataratas del Iguazú y creo que allí comenzó mi fascinación por conocer. Viajar para mí es incorporar nuevos sabores, conocer nuevos paisajes y tener nuevos amigos con sus costumbres, ideologías y color de piel. Todo me impacta cuando viajo. Tuve la suerte de tomar un café a 180 metros de profundidad en el bar de la Catedral de Sal de Zipaquirá, Colombia. Cuando voy a Entre Ríos me encuentro a orillas del Río Uruguay con Dolores, Leonardo y el “Sordo”. A orillas del Paraná comemos un surubí a la parrilla con las queridas Turcas, Danilo y Cacho Caram. De vuelta por Santa Fé cita obligada es verlos a Liana, Danilo, Laura y Carlitos. En La Rioja me encuentro con Magui y el Negro Richard al pie del Velazco y en Villa Unión los visito a Liz y Leo muy cerca del Famatina. Todo me conmueve. Me conmovió el sabor de la comida chifa en Perú, esa fusión de la comida china y peruana. En Lima las catacumbas de San Francisco, antiguo cementerio de la colonia que albergaba a los muertos bajo el templo. Las catacumbas dejaron de ser usadas como espacios para la inhumación legal, a partir de un decreto de 1821, firmado por don José de San Martín por una cuestión de sanidad. Claro que Venecia tiene su belleza y en Verona le toqué la teta al bronce de Giulietta. Tengo recuerdos imborrables de México. Los mariachis de la Plaza Garibaldi que mientras ellos tocan los pungas roban. La danza de los Voladores de Papantla frente al Museo Nacional de Antropología, en el Bosque de Chapultepec. Los clavadistas tirarse al mar desde 35 metros de altura en la Quebrada de Acapulco y también en frente al Morro vimos pasar un cadáver flotando. En este cuaderno todos son recuerdos y uno de ellos es añorar la paz de Tafí del Valle.",
+  "title": "Apuntes de un pata i' perro",
+  "digital": [
+    { "link": "https://www.amazon.com/dp/B0FJ91ZYQR", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/B0FJ91ZYQR", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/B0FJ91ZYQR", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/B0FJ91ZYQR", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/B0FJ91ZYQR", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/B0FJ91ZYQR", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/B0FJ91ZYQR", "region": "NL" },
+    { "link": "https://www.amazon.co.jp/dp/B0FJ91ZYQR", "region": "JP" },
+    { "link": "https://www.amazon.com.br/dp/B0FJ91ZYQR", "region": "BR" },
+    { "link": "https://www.amazon.ca/dp/B0FJ91ZYQR", "region": "CA" },
+    { "link": "https://www.amazon.com.mx/dp/B0FJ91ZYQR", "region": "MX" },
+    { "link": "https://www.amazon.com.au/dp/B0FJ91ZYQR", "region": "AU" },
+    { "link": "https://www.amazon.in/dp/B0FJ91ZYQR", "region": "IN" }
+  ],
+  "physical": [
+    { "link": "https://www.amazon.com/dp/B0FJ885SD5", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/B0FJ885SD5", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/B0FJ885SD5", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/B0FJ885SD5", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/B0FJ885SD5", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/B0FJ885SD5", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/B0FJ885SD5", "region": "NL" },
+    { "link": "https://www.amazon.pl/dp/B0FJ885SD5", "region": "PL" },
+    { "link": "https://www.amazon.se/dp/B0FJ885SD5", "region": "SE" },
+    { "link": "https://www.amazon.co.jp/dp/B0FJ885SD5", "region": "JP" },
+    { "link": "https://www.amazon.ca/dp/B0FJ885SD5", "region": "CA" },
+    { "link": "https://www.amazon.com.au/dp/B0FJ885SD5", "region": "AU" }
+  ],
+  "imgFront": "/books/apuntesDeUnPataIPerroTapa.png",
+  "imgBack": "/books/apuntesDeUnPataIPerroContraTapa.png"
+}
