@@ -1,5 +1,6 @@
 import { createFileRoute, useSearch } from "@tanstack/react-router";
 import useBook from "../../hooks/useBook";
+import { useEffect, useState } from "react";
 
 export const Route = createFileRoute("/books/$bookId")({
   component: RouteComponent,
@@ -14,13 +15,21 @@ function RouteComponent() {
   const { bookId } = Route.useParams();
   const { region } = useSearch({ strict: false });
   const { data: bookData } = useBook(bookId);
+  const [digitalLink, setDigitalLink] = useState<string>();
+  const [physicalLink, setPhysicalLink] = useState<string>();
+  useEffect(() => {
+    if (region && bookData) {
+      const finalDigitalLink = bookData?.digital.find(
+        (d) => d.region.toLowerCase() === region?.toLocaleLowerCase()
+      )?.link;
+      const finalPhysicalLink = bookData?.physical.find(
+        (p) => p.region.toLowerCase() === region?.toLocaleLowerCase()
+      )?.link;
 
-  const digitalLink = bookData?.digital.find(
-    (d) => d.region.toLowerCase() === region?.toLocaleLowerCase()
-  )?.link;
-  const physicalLink = bookData?.physical.find(
-    (p) => p.region.toLowerCase() === region?.toLocaleLowerCase()
-  )?.link;
+      setDigitalLink(finalDigitalLink);
+      setPhysicalLink(finalPhysicalLink);
+    }
+  }, [region, bookData]);
 
   return (
     <div className="flex flex-col items-center mt-7 gap-10">
