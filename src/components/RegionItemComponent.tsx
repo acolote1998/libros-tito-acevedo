@@ -10,7 +10,7 @@ const RegionItemComponent = ({ desc, img, regionKey }: RegionItem) => {
   return (
     <div
       key={regionKey}
-      className="bg-orange-200 flex flex-col items-center w-full p-5 rounded-2xl border-1 cursor-pointer"
+      className="bg-orange-200 flex flex-col items-center w-full rounded-2xl border-1 cursor-pointer"
       onClick={() => {
         navigate({
           to: "/books/$bookId",
@@ -19,10 +19,8 @@ const RegionItemComponent = ({ desc, img, regionKey }: RegionItem) => {
         });
       }}
     >
-      <img src={img}></img>
-      <div className="pl-2">
-        <h1>{desc}</h1>
-      </div>
+      <img src={img} className="p-5"></img>
+      <h1>{desc}</h1>
     </div>
   );
 };
