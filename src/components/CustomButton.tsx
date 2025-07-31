@@ -22,7 +22,7 @@ const CustomButton = ({
       onClick={() => {
         if (callBack) callBack();
       }}
-      className={`text-${textSize} bg-orange-200 font-${fontType} w-[${widthPorcentViewport}vw] h-[${heightPorcentViewport}vh] rounded-lg`}
+      className={`cursor-pointer text-${textSize} bg-orange-200 font-${fontType} w-[${widthPorcentViewport}vw] h-[${heightPorcentViewport}vh] rounded-lg`}
     >
       <a href={link} target="_blank">
         {text}
