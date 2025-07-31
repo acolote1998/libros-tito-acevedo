@@ -1,0 +1,35 @@
+{
+  "desc": "PRÓLOGO: POR LOS BARES DEL MUNDO. Se atribuye a Gombrowicz la idea de que un intelectual es un mozo de Bar que atiende, sin error en el servicio, una mesa de diez comensales los cuales hacen, a un mismo tiempo, diez pedidos diferentes; es para pensarlo. Lo que sí tengo por seguro es que un altísimo porcentaje de la plasmación de la cultura popular ha ocurrido y ocurre en los Bares. Hacemos cita en un Bar tras los favores del amor para escribir después los poemas de la felicidad o el desengaño. Nos encontramos con los amigos en el Bar para discutir de política, de fútbol, de libros o para hablar del tema central: Ellas, todo lo cual siempre tiene el maravilloso destino de convertirse en literatura. Tito Acevedo se pregunta en el poema “Parroquianos de la Creación” de este entrañable libro “Bares”: ¿ Y las facultades Señor dónde quedan ? , yo no pretendo responderle a un poema pero me gusta pensar que las facultades quedan donde quedaron, por suerte los Bares viajan con nosotros en una eterna Caravana y “sobre sus mesas que nunca preguntan” vienen a apoyar sus codos todos los artistas, aún aquellos que salen de las facultades porque éste es el lugar de los sabihondos y suicidas, desde aquí aplaudimos a unos y extrañamos a otros. Tito Acevedo poetizando nos da noticias de un Bar con oráculo en la cocina donde la suerte de los clientes dependía de la orientación del repulgue de las empanadas, muchos allí esperamos el destino que creíamos merecer ¿Quién no esperó, alguna vez en un Bar, sintiendo que esa espera era lo más importante en la noche del mundo? Para los que se animan a vivir, el universo es un gran Bar, es un bar infinito, es infierno y paraíso porque allí están los otros, allí está el alcohol y su autopista al horizonte, allí está el café del pensamiento, allí la soledad y sus papeles, la vida con su sangre luminosa, el abrazo cada vez que se llega; un Bar es este libro que por cierto es muchos “Bares”, sobre su tapa-mesa apoyo mi corazón y brindo por la poesía de Tito Acevedo. César León Vargas",
+  "title": "Bares",
+  "digital": [
+    { "link": "https://www.amazon.com/dp/B0FK2KPP6N", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/B0FK2KPP6N", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/B0FK2KPP6N", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/B0FK2KPP6N", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/B0FK2KPP6N", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/B0FK2KPP6N", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/B0FK2KPP6N", "region": "NL" },
+    { "link": "https://www.amazon.co.jp/dp/B0FK2KPP6N", "region": "JP" },
+    { "link": "https://www.amazon.com.br/dp/B0FK2KPP6N", "region": "BR" },
+    { "link": "https://www.amazon.ca/dp/B0FK2KPP6N", "region": "CA" },
+    { "link": "https://www.amazon.com.mx/dp/B0FK2KPP6N", "region": "MX" },
+    { "link": "https://www.amazon.com.au/dp/B0FK2KPP6N", "region": "AU" },
+    { "link": "https://www.amazon.in/dp/B0FK2KPP6N", "region": "IN" }
+  ],
+  "physical": [
+    { "link": "http://www.google.com", "region": "US" },
+    { "link": "http://www.google.com", "region": "UK" },
+    { "link": "http://www.google.com", "region": "DE" },
+    { "link": "http://www.google.com", "region": "FR" },
+    { "link": "http://www.google.com", "region": "ES" },
+    { "link": "http://www.google.com", "region": "IT" },
+    { "link": "http://www.google.com", "region": "NL" },
+    { "link": "http://www.google.com", "region": "PL" },
+    { "link": "http://www.google.com", "region": "SE" },
+    { "link": "http://www.google.com", "region": "JP" },
+    { "link": "http://www.google.com", "region": "CA" },
+    { "link": "http://www.google.com", "region": "AU" }
+  ],
+  "imgFront": "/books/baresTapa.png",
+  "imgBack": "/books/baresContraTapa.png"
+}
