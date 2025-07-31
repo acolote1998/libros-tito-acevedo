@@ -39,7 +39,7 @@ function RouteComponent() {
           color: "var(--item-text-color)",
           backgroundColor: "var(--item-background-color)",
         }}
-        className=" text-5xl p-4 rounded-lg"
+        className=" text-2xl p-4 rounded-lg"
       >
         {bookData && bookData.title}
       </h1>
@@ -50,9 +50,9 @@ function RouteComponent() {
         }}
         className="flex flex-col text-center p-3 rounded-lg gap-2"
       >
-        <div className="flex gap-2 ">
-          <img className="h-72" src={bookData?.imgBack} />
-          <img className="h-72" src={bookData?.imgFront} />
+        <div className="flex items-center justify-center gap-2 ">
+          <img className="h-55" src={bookData?.imgBack} />
+          <img className="h-55" src={bookData?.imgFront} />
         </div>
         <p className="text-lg w-[90vw] max-h-[15vh] overflow-y-scroll">
           {bookData && bookData.desc}
@@ -63,9 +63,9 @@ function RouteComponent() {
           color: "var(--item-text-color)",
           backgroundColor: "var(--item-background-color)",
         }}
-        className="flex flex-col text-center text-2xl  p-3 rounded-lg"
+        className="flex flex-col text-center p-1 rounded-lg"
       >
-        <p className="text-2xl font-bold p-4 rounded-lg tracking-wide uppercase shadow-inner">
+        <p className="text-lg font-bold p-1 rounded-lg tracking-wide uppercase shadow-inner">
           CONSEGUI TU LIBRO!
         </p>
       </div>
