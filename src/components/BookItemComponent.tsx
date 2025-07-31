@@ -1,6 +1,6 @@
 import { useNavigate } from "@tanstack/react-router";
 import type { BookItem } from "../types/types";
-const BookItemComponent = ({ desc, img, title, id }: BookItem) => {
+const BookItemComponent = ({ img, title, id }: BookItem) => {
   const navigate = useNavigate();
   return (
     <div
@@ -11,9 +11,9 @@ const BookItemComponent = ({ desc, img, title, id }: BookItem) => {
     >
       <h1 className="text-xl font-bold mb-2">{title}</h1>
       <img src={img} className="w-35"></img>
-      <div className="pl-2">
+      {/* <div className="pl-2">
         <h2>{desc}</h2>
-      </div>
+      </div> */}
     </div>
   );
 };
