@@ -32,7 +32,7 @@ function RouteComponent() {
   }, [region, bookData]);
 
   return (
-    <div className="flex flex-col items-center mt-7 gap-5">
+    <div className="flex flex-col items-center mt-7 gap-5 text-center pl-3 pr-3">
       <h1 className="bg-orange-200 text-5xl p-4 rounded-lg">
         {bookData && bookData.title}
       </h1>
