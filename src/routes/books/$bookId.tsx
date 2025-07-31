@@ -38,8 +38,8 @@ function RouteComponent() {
       </h1>
       <div className="flex flex-col text-center bg-orange-200 p-3 rounded-lg gap-2">
         <div className="flex gap-2 ">
-          <img className="h-72" src={bookData?.imgFront} />
           <img className="h-72" src={bookData?.imgBack} />
+          <img className="h-72" src={bookData?.imgFront} />
         </div>
         <p className="text-lg w-[90vw] max-h-[15vh] overflow-y-scroll">
           {bookData && bookData.desc}
