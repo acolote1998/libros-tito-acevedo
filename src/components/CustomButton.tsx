@@ -28,7 +28,7 @@ const CustomButton = ({
       }}
       className={`text-center p-4 cursor-pointer text-${textSize} bg-orange-300 font-${fontType} rounded-lg`}
     >
-      <a href={link} target="_blank" rel="noopener noreferrer">
+      <a href={link} target="_blank">
         {text}
       </a>
     </p>
