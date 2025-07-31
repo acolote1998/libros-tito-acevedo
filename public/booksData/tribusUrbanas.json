@@ -1,0 +1,35 @@
+{
+  "desc": "Santo Diablo Producciones Literarias",
+  "title": "Tribus Urbanas",
+  "digital": [
+    { "link": "https://www.amazon.com/dp/B0DKRSJ86M", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/B0DKRSJ86M", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/B0DKRSJ86M", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/B0DKRSJ86M", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/B0DKRSJ86M", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/B0DKRSJ86M", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/B0DKRSJ86M", "region": "NL" },
+    { "link": "https://www.amazon.co.jp/dp/B0DKRSJ86M", "region": "JP" },
+    { "link": "https://www.amazon.com.br/dp/B0DKRSJ86M", "region": "BR" },
+    { "link": "https://www.amazon.ca/dp/B0DKRSJ86M", "region": "CA" },
+    { "link": "https://www.amazon.com.mx/dp/B0DKRSJ86M", "region": "MX" },
+    { "link": "https://www.amazon.com.au/dp/B0DKRSJ86M", "region": "AU" },
+    { "link": "https://www.amazon.in/dp/B0DKRSJ86M", "region": "IN" }
+  ],
+  "physical": [
+    { "link": "https://www.amazon.com/dp/6310054449", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/6310054449", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/6310054449", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/6310054449", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/6310054449", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/6310054449", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/6310054449", "region": "NL" },
+    { "link": "https://www.amazon.pl/dp/6310054449", "region": "PL" },
+    { "link": "https://www.amazon.se/dp/6310054449", "region": "SE" },
+    { "link": "https://www.amazon.co.jp/dp/6310054449", "region": "JP" },
+    { "link": "https://www.amazon.ca/dp/6310054449", "region": "CA" },
+    { "link": "https://www.amazon.com.au/dp/6310054449", "region": "AU" }
+  ],
+  "imgFront": "/books/tribusUrbanasTapa.png",
+  "imgBack": "/books/tribusUrbanasContraTapa.png"
+}
