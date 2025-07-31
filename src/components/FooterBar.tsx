@@ -5,6 +5,10 @@ const FooterBar = () => {
   const navigate = useNavigate();
   return (
     <div
+      style={{
+        color: "var(--headerfooter-text-color",
+        backgroundColor: "var(--headerfooter-background-color",
+      }}
       className="
     flex
     cursor-pointer
@@ -13,7 +17,6 @@ const FooterBar = () => {
     align-middle
     fixed
     bottom-0
-    bg-orange-200
     w-full
     h-13
     border-t-1

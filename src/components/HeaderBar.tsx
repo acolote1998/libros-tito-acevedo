@@ -4,6 +4,10 @@ const HeaderBar = () => {
   const navigate = useNavigate();
   return (
     <div
+      style={{
+        color: "var(--headerfooter-text-color",
+        backgroundColor: "var(--headerfooter-background-color",
+      }}
       className="
     sticky
     flex
@@ -12,7 +16,6 @@ const HeaderBar = () => {
     items-center
     align-middle
     top-0
-    bg-orange-200
     w-full
     h-13
     border-b-1

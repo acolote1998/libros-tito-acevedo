@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  --headerfooter-background-color: #5d3a00; /* Rich Brown for buttons, evokes leather/binding */
+  --headerfooter-text-color: white;
   --title-text-color: white;
   --button-background-color: #5d3a00; /* Rich Brown for buttons, evokes leather/binding */
   --button-text-color: white;
