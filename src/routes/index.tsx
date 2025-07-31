@@ -10,14 +10,14 @@ function Index() {
   return (
     <div className="bg-[url('./herodarkervertical.png')] bg-cover w-[100vw] h-[100vh]">
       <div
-        style={{ color: "var(--title-text-color)" }}
+        style={{ color: "var(--home-text-color)" }}
         className="text-6xl font-bold flex items-center text-center flex-col gap-3 pt-130"
       >
         <h1>Tito Acevedo</h1>
         <h1>Libros</h1>
       </div>
       <div
-        style={{ color: "var(--title-text-color" }}
+        style={{ color: "var(--home-text-color" }}
         className=" text-md flex items-center text-center flex-col gap-3 pt-10"
       >
         <h2>ESCRITOR DE CULTURA ARGENTINA</h2>

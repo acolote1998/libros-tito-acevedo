@@ -1,16 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --headerfooter-background-color: #5d3a00; /* Rich Brown for buttons, evokes leather/binding */
-  --headerfooter-text-color: white;
-  --title-text-color: white;
-  --button-background-color: #5d3a00; /* Rich Brown for buttons, evokes leather/binding */
-  --button-text-color: white;
-  --button-border-color: blue;
-  --site-text-color: #1a1a1a; /* Deep Charcoal for high readability */
-  --site-background-color: #fdf6e3; /* Light Cream for warmth and softness */
-  --item-background-color: blue; /* Subtle Beige for product cards or sections */
-  --item-text-color: red; /* Subtle Beige for product cards or sections */
+  /* Fondo principal: neutral, profesional */
+  --site-background-color: #f5f7f9; /* Gris claro casi blanco */
+
+  /* Texto principal: sobrio y legible */
+  --site-text-color: #1f1f1f;
+
+  /* Cabecera y pie: profesional, moderno */
+  --headerfooter-background-color: #0f2c3a; /* Azul petróleo oscuro */
+  --headerfooter-text-color: #ffffff;
+
+  /* Títulos: contrastantes, serios */
+  --title-text-color: #0f2c3a;
+
+  /* Texto destacado del home */
+  --home-text-color: #0f2c3a;
+
+  /* Botones: visibles pero elegantes */
+  --button-background-color: #1e5162; /* Azul petróleo intermedio */
+  --button-text-color: #ffffff;
+  --button-border-color: #14404f;
+
+  /* Tarjetas de producto / items */
+  --item-background-color: #ffffff; /* Fondo limpio */
+  --item-text-color: #1f1f1f;
+
+  /* Acento: detalles, íconos, precios */
+  --accent-color: #e67e22; /* Naranja suave, contrasta sin romper armonía */
+
+  --footer-icon-line-color: white;
 }
 
 body {
