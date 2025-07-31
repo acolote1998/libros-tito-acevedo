@@ -12,8 +12,8 @@ export const Route = createFileRoute("/books/$bookId")({
 
 function RouteComponent() {
   const mockedBook: SpecificBook = {
-    desc: "Descripcion test",
-    title: "Title test",
+    desc: "Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test ",
+    title: "Bares",
     digital: [
       { link: "http://www.google.com", region: "US" },
       { link: "http://www.google.com", region: "UK" },
@@ -43,8 +43,8 @@ function RouteComponent() {
       { link: "http://www.google.com", region: "CA" },
       { link: "http://www.google.com", region: "AU" },
     ],
-    imgFront: "/placeholderbook.png",
-    imgBack: "/placeholderbook.png",
+    imgFront: "/books/baresTapa.png",
+    imgBack: "/books/baresContraTapa.png",
   };
   const { bookId } = Route.useParams();
   const { region } = useSearch({ strict: false });
@@ -57,16 +57,18 @@ function RouteComponent() {
   )?.link;
 
   return (
-    <div className="flex flex-col items-center mt-20 gap-10">
+    <div className="flex flex-col items-center mt-7 gap-10">
       <h1 className="bg-orange-200 text-5xl p-4 rounded-lg">
         {mockedBook.title}
       </h1>
       <div className="flex flex-col text-center bg-orange-200 p-3 rounded-lg gap-2">
         <div className="flex gap-2 ">
-          <img className="h-60" src={mockedBook.imgFront} />
-          <img className="h-60" src={mockedBook.imgBack} />
+          <img className="h-72" src={mockedBook.imgFront} />
+          <img className="h-72" src={mockedBook.imgBack} />
         </div>
-        <p className="text-lg">{mockedBook.desc}</p>
+        <p className="text-lg w-[90vw] h-[15vh] overflow-y-scroll">
+          {mockedBook.desc}
+        </p>
       </div>
       <div className="flex flex-col text-center text-2xl bg-orange-200 p-3 rounded-lg gap-2">
         <p>CONSEGUI TU LIBRO</p>
