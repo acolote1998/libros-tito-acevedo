@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   const navigate = useNavigate();
   return (
-    <div className="bg-[url('./herodarkervertical.png')] bg-cover w-[100vw] h-[100vh]">
+    <div className="bg-[url('/herodarkervertical.png')] bg-cover w-[100vw] h-[100vh]">
       <div
         style={{ color: "var(--home-text-color)" }}
         className="text-6xl font-bold flex items-center text-center flex-col gap-3 pt-130"
