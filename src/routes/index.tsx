@@ -1,4 +1,5 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import CustomButton from "../components/CustomButton";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -17,17 +18,15 @@ function Index() {
         <h2>RETALOS E HISTORIAS DE MIS VIAJES POR EL MUNDO</h2>
         <h2>LIBROS CON IDENTIDAD Y RAICES</h2>
       </div>
-      <div className="flex justify-center cursor-pointer">
-        <div className="bg-orange-300 rounded-lg p-3 mt-10 w-[50vw] text-center">
-          <p
-            className="text-xl font-bold"
-            onClick={() => {
-              navigate({ to: "/books" });
-            }}
-          >
-            VER LIBROS
-          </p>
-        </div>
+      <div className="flex justify-center cursor-pointer mt-5">
+        <CustomButton
+          fontType="bold"
+          heightPorcentViewport="7"
+          widthPorcentViewport="50"
+          text="VER LIBROS"
+          textSize="xl"
+          callBack={() => navigate({ to: "/books" })}
+        />
       </div>
     </div>
   );

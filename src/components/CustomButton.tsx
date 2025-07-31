@@ -5,7 +5,7 @@ type CustomButtonType = {
   heightPorcentViewport: string;
   textSize: "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl";
   fontType: "normal" | "black" | "bold" | "extrabold" | "light" | "extralight";
-  callBack?: () => void;
+  callBack?: () => Promise<void>;
 };
 
 const CustomButton = ({
@@ -22,9 +22,13 @@ const CustomButton = ({
       onClick={() => {
         if (callBack) callBack();
       }}
-      className={`cursor-pointer text-${textSize} bg-orange-200 font-${fontType} w-[${widthPorcentViewport}vw] h-[${heightPorcentViewport}vh] rounded-lg`}
+      style={{
+        width: `${widthPorcentViewport}vw`,
+        height: `${heightPorcentViewport}vh`,
+      }}
+      className={`text-center p-4 cursor-pointer text-${textSize} bg-orange-300 font-${fontType} rounded-lg`}
     >
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         {text}
       </a>
     </p>
