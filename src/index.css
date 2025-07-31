@@ -9,7 +9,8 @@
   --button-border-color: blue;
   --site-text-color: #1a1a1a; /* Deep Charcoal for high readability */
   --site-background-color: #fdf6e3; /* Light Cream for warmth and softness */
-  --item-background-color: #eee6da; /* Subtle Beige for product cards or sections */
+  --item-background-color: blue; /* Subtle Beige for product cards or sections */
+  --item-text-color: red; /* Subtle Beige for product cards or sections */
 }
 
 body {

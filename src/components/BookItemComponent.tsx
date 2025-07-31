@@ -4,6 +4,10 @@ const BookItemComponent = ({ img, title, id }: BookItem) => {
   const navigate = useNavigate();
   return (
     <div
+      style={{
+        backgroundColor: "var(--item-background-color)",
+        color: "var(--item-text-color)",
+      }}
       className="bg-orange-200 flex flex-col items-center w-full p-2 text-center rounded-2xl border-1 cursor-pointer"
       onClick={() => {
         navigate({ to: "/regions", search: { bookId: id } });

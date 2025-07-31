@@ -9,7 +9,12 @@ function RouteComponent() {
   const { data: allBooksData } = useAllBooks();
   return (
     <div>
-      <h1 className="text-5xl font-semibold mt-2 mb-2 text-center">Libros</h1>
+      <h1
+        style={{ color: "var(--title-text-color)" }}
+        className="text-5xl font-semibold mt-2 mb-2 text-center"
+      >
+        Libros
+      </h1>
       <div className="grid grid-cols-2 gap-4 p-3 mb-14">
         {allBooksData && allBooksData.map((b) => <BookItemComponent {...b} />)}
       </div>
