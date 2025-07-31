@@ -4,14 +4,14 @@ const BookItemComponent = ({ desc, img, title, id }: BookItem) => {
   const navigate = useNavigate();
   return (
     <div
-      className="bg-orange-200 flex items-center w-full p-5 rounded-2xl border-1 cursor-pointer"
+      className="bg-orange-200 flex flex-col items-center w-full p-2 text-center rounded-2xl border-1 cursor-pointer"
       onClick={() => {
         navigate({ to: "/regions", search: { bookId: id } });
       }}
     >
-      <img src={img}></img>
+      <h1 className="text-xl font-bold mb-2">{title}</h1>
+      <img src={img} className="w-35"></img>
       <div className="pl-2">
-        <h1>{title}</h1>
         <h2>{desc}</h2>
       </div>
     </div>
