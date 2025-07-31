@@ -1,37 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  /* Fondo general: gris muy muy claro */
-  --site-background-color: #e6edf7; /* Un azul grisáceo muy suave */
+  /* Colores base */
+  --site-background-color: #f8f5f2; /* Beige muy claro - fondo cálido y acogedor */
+  --site-text-color: #333333; /* Gris oscuro - texto legible y profesional */
 
-  /* Texto principal: azul oscuro */
-  --site-text-color: #2e3a59;
-
-  /* Cabecera y pie: azul oscuro */
-  --headerfooter-background-color: #1b264f;
-  --headerfooter-text-color: #ffffff;
+  /* Header y Footer */
+  --headerfooter-background-color: #3a2c1b; /* Marrón oscuro - elegante y sólido */
+  --headerfooter-text-color: #f8f5f2; /* Beige claro - contraste legible */
 
   /* Títulos */
-  --title-text-color: #1b264f;
+  --title-text-color: #8c5e3a; /* Marrón cálido - destaca pero no agresivo */
 
-  /* Texto destacado home */
-  --home-text-color: #1b264f;
+  /* Texto de la página de inicio */
+  --home-text-color: #ffffff; /* Gris medio - legible pero suave */
 
-  /* Botones: azul vibrante */
-  --button-background-color: #1768ac;
-  --button-text-color: #ffffff;
-  --button-border-color: #0f4c81;
+  /* Botones */
+  --button-background-color: #8c5e3a; /* Marrón cálido - coherente con títulos */
+  --button-text-color: #ffffff; /* Blanco - alto contraste */
+  --button-border-color: #6d4a2d; /* Marrón más oscuro - profundidad */
 
-  /* Fondo tarjetas: blanco puro para máximo contraste */
-  --item-background-color: #ffffff;
+  /* Cards/Ítems */
+  --item-background-color: #f2e6da; /* crema cálido que resalta sobre el fondo */
 
-  /* Texto tarjetas */
-  --item-text-color: #2e3a59;
+  --item-text-color: #4a4a4a; /* Gris medio - legible pero no duro */
 
-  /* Acento: coral */
-  --accent-color: #ff6b6b;
+  /* Color de acento */
+  --accent-color: #c77d43; /* Naranja terroso - toque de energía */
 
-  --footer-icon-line-color: #ffffff;
+  /* Líneas e íconos del footer */
+  --footer-icon-line-color: #d7b899; /* Beige dorado - detalle elegante */
 }
 
 body {

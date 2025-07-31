@@ -71,7 +71,7 @@ function RouteComponent() {
       </div>
       <div className="flex text-center gap-2">
         <CustomButton
-          fontType="extrabold"
+          fontType="bold"
           textSize="2xl"
           link={digitalLink ?? bookData?.digital?.[0]?.link}
           heightPorcentViewport="7"
@@ -80,7 +80,7 @@ function RouteComponent() {
         />
         {physicalLink && (
           <CustomButton
-            fontType="extrabold"
+            fontType="bold"
             textSize="2xl"
             link={physicalLink}
             heightPorcentViewport="7"
