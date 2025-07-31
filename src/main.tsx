@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 import { routeTree } from "./routeTree.gen";
 
 // Create a new router instance
-const router = createRouter({ routeTree, basepath: "/libros-tito-acevedo/" });
+const router = createRouter({ routeTree });
 
 // Register the router instance for type safety
 declare module "@tanstack/react-router" {
