@@ -3,30 +3,36 @@
     "id": "tribusUrbanas",
     "img": "./books/tribusUrbanasTapa.png",
     "title": "Tribus Urbanas",
-    "desc": "Desc 1"
+    "desc": ""
   },
   {
     "id": "tonosYToneles",
     "img": "./books/tonosYTonelesTapa.png",
     "title": "Tonos y Toneles",
-    "desc": "Desc 2"
+    "desc": ""
   },
   {
     "id": "laMemoriaDeLosBoliches",
     "img": "./books/laMemoriaDeLosBolichesTapa.png",
     "title": "La memoria de los boliches",
-    "desc": "Desc 3"
+    "desc": ""
   },
   {
     "id": "bares",
     "img": "./books/baresTapa.png",
     "title": "Bares",
-    "desc": "Desc 4"
+    "desc": ""
   },
   {
     "id": "apuntesDeUnPataIPerro",
     "img": "./books/apuntesDeUnPataIPerroTapa.png",
     "title": "Apuntes de un pata i' perro",
-    "desc": "Desc 5"
+    "desc": ""
+  },
+  {
+    "id": "quieroQueEntiendas",
+    "img": "./books/quieroQueEntiendasTapa.png",
+    "title": "Quiero que entiendas",
+    "desc": ""
   }
 ]
