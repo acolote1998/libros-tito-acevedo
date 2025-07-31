@@ -66,7 +66,7 @@ function RouteComponent() {
         className="flex flex-col text-center p-1 rounded-lg"
       >
         <p className="text-lg font-bold p-1 rounded-lg tracking-wide uppercase shadow-inner">
-          CONSEGUI TU LIBRO!
+          CONSEGUI TU COPIA!
         </p>
       </div>
       <div className="flex text-center gap-2">
