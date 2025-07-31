@@ -1,5 +1,8 @@
 import axios from "axios";
-export const fetchBookByName = async (bookName: string) => {
+import type { SpecificBook } from "../types/types";
+export const fetchBookByName = async (
+  bookName: string
+): Promise<SpecificBook> => {
   const response = await axios.get(`./booksData/${bookName}.json`);
   return response.data;
 };

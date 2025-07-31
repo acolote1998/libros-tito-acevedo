@@ -1,0 +1,35 @@
+{
+  "desc": "Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test ",
+  "title": "Bares",
+  "digital": [
+    { "link": "http://www.google.com", "region": "US" },
+    { "link": "http://www.google.com", "region": "UK" },
+    { "link": "http://www.google.com", "region": "DE" },
+    { "link": "http://www.google.com", "region": "FR" },
+    { "link": "http://www.google.com", "region": "ES" },
+    { "link": "http://www.google.com", "region": "IT" },
+    { "link": "http://www.google.com", "region": "NL" },
+    { "link": "http://www.google.com", "region": "JP" },
+    { "link": "http://www.google.com", "region": "BR" },
+    { "link": "http://www.google.com", "region": "CA" },
+    { "link": "http://www.google.com", "region": "MX" },
+    { "link": "http://www.google.com", "region": "AU" },
+    { "link": "http://www.google.com", "region": "IN" }
+  ],
+  "physical": [
+    { "link": "http://www.google.com", "region": "US" },
+    { "link": "http://www.google.com", "region": "UK" },
+    { "link": "http://www.google.com", "region": "DE" },
+    { "link": "http://www.google.com", "region": "FR" },
+    { "link": "http://www.google.com", "region": "ES" },
+    { "link": "http://www.google.com", "region": "IT" },
+    { "link": "http://www.google.com", "region": "NL" },
+    { "link": "http://www.google.com", "region": "PL" },
+    { "link": "http://www.google.com", "region": "SE" },
+    { "link": "http://www.google.com", "region": "JP" },
+    { "link": "http://www.google.com", "region": "CA" },
+    { "link": "http://www.google.com", "region": "AU" }
+  ],
+  "imgFront": "/books/baresTapa.png",
+  "imgBack": "/books/baresContraTapa.png"
+}

@@ -1,5 +1,5 @@
 import { createFileRoute, useSearch } from "@tanstack/react-router";
-import type { SpecificBook } from "../../types/types";
+import useBook from "../../hooks/useBook";
 
 export const Route = createFileRoute("/books/$bookId")({
   component: RouteComponent,
@@ -11,63 +11,29 @@ export const Route = createFileRoute("/books/$bookId")({
 });
 
 function RouteComponent() {
-  const mockedBook: SpecificBook = {
-    desc: "Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test Descripcion test ",
-    title: "Bares",
-    digital: [
-      { link: "http://www.google.com", region: "US" },
-      { link: "http://www.google.com", region: "UK" },
-      { link: "http://www.google.com", region: "DE" },
-      { link: "http://www.google.com", region: "FR" },
-      { link: "http://www.google.com", region: "ES" },
-      { link: "http://www.google.com", region: "IT" },
-      { link: "http://www.google.com", region: "NL" },
-      { link: "http://www.google.com", region: "JP" },
-      { link: "http://www.google.com", region: "BR" },
-      { link: "http://www.google.com", region: "CA" },
-      { link: "http://www.google.com", region: "MX" },
-      { link: "http://www.google.com", region: "AU" },
-      { link: "http://www.google.com", region: "IN" },
-    ],
-    physical: [
-      { link: "http://www.google.com", region: "US" },
-      { link: "http://www.google.com", region: "UK" },
-      { link: "http://www.google.com", region: "DE" },
-      { link: "http://www.google.com", region: "FR" },
-      { link: "http://www.google.com", region: "ES" },
-      { link: "http://www.google.com", region: "IT" },
-      { link: "http://www.google.com", region: "NL" },
-      { link: "http://www.google.com", region: "PL" },
-      { link: "http://www.google.com", region: "SE" },
-      { link: "http://www.google.com", region: "JP" },
-      { link: "http://www.google.com", region: "CA" },
-      { link: "http://www.google.com", region: "AU" },
-    ],
-    imgFront: "/books/baresTapa.png",
-    imgBack: "/books/baresContraTapa.png",
-  };
   const { bookId } = Route.useParams();
   const { region } = useSearch({ strict: false });
+  const { data: bookData } = useBook(bookId);
 
-  const digitalLink = mockedBook.digital.find(
+  const digitalLink = bookData?.digital.find(
     (d) => d.region.toLowerCase() === region?.toLocaleLowerCase()
   )?.link;
-  const physicalLink = mockedBook.physical.find(
+  const physicalLink = bookData?.physical.find(
     (p) => p.region.toLowerCase() === region?.toLocaleLowerCase()
   )?.link;
 
   return (
     <div className="flex flex-col items-center mt-7 gap-10">
       <h1 className="bg-orange-200 text-5xl p-4 rounded-lg">
-        {mockedBook.title}
+        {bookData && bookData.title}
       </h1>
       <div className="flex flex-col text-center bg-orange-200 p-3 rounded-lg gap-2">
         <div className="flex gap-2 ">
-          <img className="h-72" src={mockedBook.imgFront} />
-          <img className="h-72" src={mockedBook.imgBack} />
+          <img className="h-72" src={bookData?.imgFront} />
+          <img className="h-72" src={bookData?.imgBack} />
         </div>
         <p className="text-lg w-[90vw] h-[15vh] overflow-y-scroll">
-          {mockedBook.desc}
+          {bookData && bookData.desc}
         </p>
       </div>
       <div className="flex flex-col text-center text-2xl bg-orange-200 p-3 rounded-lg gap-2">
