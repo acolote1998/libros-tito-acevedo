@@ -27,8 +27,8 @@ const FooterBar = () => {
         navigate({ to: "/books" });
       }}
     >
-      <BookIcon width={40} />
-      <p className="font-bold text-lg">Ver todos los libros</p>
+      <BookIcon width={36} />
+      <p className="font-bold text-md">Ver todos los libros</p>
     </div>
   );
 };
