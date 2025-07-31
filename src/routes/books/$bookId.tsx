@@ -41,7 +41,7 @@ function RouteComponent() {
           <img className="h-72" src={bookData?.imgFront} />
           <img className="h-72" src={bookData?.imgBack} />
         </div>
-        <p className="text-lg w-[90vw] h-[15vh] overflow-y-scroll">
+        <p className="text-lg w-[90vw] max-h-[15vh] overflow-y-scroll">
           {bookData && bookData.desc}
         </p>
       </div>
