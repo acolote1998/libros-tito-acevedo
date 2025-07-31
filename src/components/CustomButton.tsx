@@ -25,10 +25,17 @@ const CustomButton = ({
       style={{
         width: `${widthPorcentViewport}vw`,
         height: `${heightPorcentViewport}vh`,
+        backgroundColor: "var(--button-background-color)",
+        color: "var(--button-text-color)",
+        borderColor: "var(--button-border-color)",
       }}
-      className={`text-center p-4 cursor-pointer text-${textSize} bg-orange-300 font-${fontType} rounded-lg`}
+      className={`border-1 text-center p-4 cursor-pointer text-${textSize} font-${fontType} rounded-lg`}
     >
-      <a href={link} target="_blank">
+      <a
+        style={{ color: "var(--button-text-color)" }}
+        href={link}
+        target="_blank"
+      >
         {text}
       </a>
     </p>
