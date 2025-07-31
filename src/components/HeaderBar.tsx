@@ -26,7 +26,7 @@ const HeaderBar = () => {
         navigate({ to: "/" });
       }}
     >
-      <p className="font-bold">Tito Acevedo Libros</p>
+      <p className="font-bold text-3xl">Tito Acevedo Libros</p>
     </div>
   );
 };
