@@ -33,7 +33,7 @@ function RouteComponent() {
   }, [region, bookData]);
 
   return (
-    <div className="flex flex-col items-center mt-7 gap-5 text-center pl-3 pr-3">
+    <div className="flex flex-col items-center mt-7 gap-3 text-center pl-3 pr-3">
       <h1
         style={{
           color: "var(--item-text-color)",
@@ -65,7 +65,9 @@ function RouteComponent() {
         }}
         className="flex flex-col text-center text-2xl  p-3 rounded-lg"
       >
-        <p>CONSEGUI TU LIBRO</p>
+        <p className="text-2xl font-bold p-4 rounded-lg tracking-wide uppercase shadow-inner">
+          CONSEGUI TU LIBRO!
+        </p>
       </div>
       <div className="flex text-center gap-2">
         <CustomButton

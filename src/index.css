@@ -1,35 +1,37 @@
 @import "tailwindcss";
 
 :root {
-  /* Background: warm and cozy */
-  --site-background-color: #f3e9dc; /* Soft warm ivory */
+  /* Fondo general: gris muy muy claro */
+  --site-background-color: #e6edf7; /* Un azul grisáceo muy suave */
 
-  /* Main text: easy on the eyes */
-  --site-text-color: #4a3c31; /* Deep coffee brown */
+  /* Texto principal: azul oscuro */
+  --site-text-color: #2e3a59;
 
-  /* Header/Footer: grounded and elegant */
-  --headerfooter-background-color: #7a5c44; /* Warm chestnut brown */
-  --headerfooter-text-color: #fff8f0; /* Off-white, gentle contrast */
+  /* Cabecera y pie: azul oscuro */
+  --headerfooter-background-color: #1b264f;
+  --headerfooter-text-color: #ffffff;
 
-  /* Titles: strong but warm */
-  --title-text-color: #5c3a21; /* Rich dark brown */
+  /* Títulos */
+  --title-text-color: #1b264f;
 
-  /* Home highlight text */
-  --home-text-color: #7a5c44; /* Matches header/footer bg */
+  /* Texto destacado home */
+  --home-text-color: #1b264f;
 
-  /* Buttons: inviting and natural */
-  --button-background-color: #b9743f; /* Burnt caramel */
-  --button-text-color: #fff8f0;
-  --button-border-color: #8c5e2f; /* Dark caramel */
+  /* Botones: azul vibrante */
+  --button-background-color: #1768ac;
+  --button-text-color: #ffffff;
+  --button-border-color: #0f4c81;
 
-  /* Item cards: subtle and soft */
-  --item-background-color: #fff6e8; /* Pale parchment */
-  --item-text-color: #4a3c31;
+  /* Fondo tarjetas: blanco puro para máximo contraste */
+  --item-background-color: #ffffff;
 
-  /* Accent: for links, prices, icons */
-  --accent-color: #d97d30; /* Autumn orange */
+  /* Texto tarjetas */
+  --item-text-color: #2e3a59;
 
-  --footer-icon-line-color: #fff8f0;
+  /* Acento: coral */
+  --accent-color: #ff6b6b;
+
+  --footer-icon-line-color: #ffffff;
 }
 
 body {
