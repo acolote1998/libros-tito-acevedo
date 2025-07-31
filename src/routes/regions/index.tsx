@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import RegionItemComponent from "../../components/RegionItemComponent";
+import useRegions from "../../hooks/useRegions";
 
 export const Route = createFileRoute("/regions/")({
   component: RouteComponent,
@@ -11,23 +12,7 @@ export const Route = createFileRoute("/regions/")({
 });
 
 function RouteComponent() {
-  const regions = [
-    { img: "./flags/br_flag.png", regionKey: "br", desc: "Brasil" },
-    { img: "./flags/mx_flag.png", regionKey: "mx", desc: "México" },
-    { img: "./flags/us_flag.png", regionKey: "us", desc: "Estados Unidos" },
-    { img: "./flags/ca_flag.png", regionKey: "ca", desc: "Canadá" },
-    { img: "./flags/es_flag.png", regionKey: "es", desc: "España" },
-    { img: "./flags/it_flag.png", regionKey: "it", desc: "Italia" },
-    { img: "./flags/fr_flag.png", regionKey: "fr", desc: "Francia" },
-    { img: "./flags/de_flag.png", regionKey: "de", desc: "Alemania" },
-    { img: "./flags/uk_flag.png", regionKey: "uk", desc: "Reino Unido" },
-    { img: "./flags/pl_flag.png", regionKey: "pl", desc: "Polonia" },
-    { img: "./flags/se_flag.png", regionKey: "se", desc: "Suecia" },
-    { img: "./flags/nl_flag.png", regionKey: "nl", desc: "Países Bajos" },
-    { img: "./flags/in_flag.png", regionKey: "in", desc: "India" },
-    { img: "./flags/jp_flag.png", regionKey: "jp", desc: "Japón" },
-    { img: "./flags/au_flag.png", regionKey: "au", desc: "Australia" },
-  ];
+  const { data: regions } = useRegions();
   return (
     <div>
       <h1 className="text-5xl font-semibold mt-2 mb-2 text-center">Regiones</h1>
@@ -35,9 +20,7 @@ function RouteComponent() {
         Seleccione la región más próxima a su ubicación
       </h2>
       <div className="grid grid-cols-3 gap-4 p-3 mb-14">
-        {regions.map((b) => (
-          <RegionItemComponent {...b} />
-        ))}
+        {regions && regions.map((b) => <RegionItemComponent {...b} />)}
       </div>
     </div>
   );
