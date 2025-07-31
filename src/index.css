@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+:root {
+  --button-bg-color: #5d3a00; /* Rich Brown for buttons, evokes leather/binding */
+  --site-text-color: #1a1a1a; /* Deep Charcoal for high readability */
+  --site-background-color: #fdf6e3; /* Light Cream for warmth and softness */
+  --item-background-color: #eee6da; /* Subtle Beige for product cards or sections */
+}
+
 body {
-  background-color: burlywood;
+  background-color: var(--site-background-color);
+}
+
+h1,
+p,
+h2 {
+  color: var(--site-text-color);
 }
