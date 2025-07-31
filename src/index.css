@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  --title-text-color: white;
   --button-background-color: #5d3a00; /* Rich Brown for buttons, evokes leather/binding */
   --button-text-color: white;
   --button-border-color: blue;
@@ -11,11 +12,4 @@
 
 body {
   background-color: var(--site-background-color);
-}
-
-a,
-h1,
-p,
-h2 {
-  color: var(--site-text-color);
 }

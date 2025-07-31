@@ -9,11 +9,17 @@ function Index() {
   const navigate = useNavigate();
   return (
     <div className="bg-[url('./herodarkervertical.png')] bg-cover w-[100vw] h-[100vh]">
-      <div className="text-6xl text-white font-bold flex items-center text-center flex-col gap-3 pt-130">
+      <div
+        style={{ color: "var(--title-text-color)" }}
+        className="text-6xl font-bold flex items-center text-center flex-col gap-3 pt-130"
+      >
         <h1>Tito Acevedo</h1>
         <h1>Libros</h1>
       </div>
-      <div className="text-white text-md flex items-center text-center flex-col gap-3 pt-10">
+      <div
+        style={{ color: "var(--title-text-color" }}
+        className=" text-md flex items-center text-center flex-col gap-3 pt-10"
+      >
         <h2>ESCRITOR DE CULTURA ARGENTINA</h2>
         <h2>RETALOS E HISTORIAS DE MIS VIAJES POR EL MUNDO</h2>
         <h2>LIBROS CON IDENTIDAD Y RAICES</h2>
