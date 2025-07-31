@@ -49,13 +49,11 @@ function RouteComponent() {
         <p>CONSEGUI TU LIBRO</p>
       </div>
       <div className="flex text-center gap-2">
-        {digitalLink && (
-          <p className="text-2xl bg-orange-200 font-extrabold p-3 rounded-lg">
-            <a href={digitalLink} target="_blank">
-              DIGITAL
-            </a>
-          </p>
-        )}
+        <p className="text-2xl bg-orange-200 font-extrabold p-3 rounded-lg">
+          <a href={digitalLink ?? bookData?.digital?.[0]?.link} target="_blank">
+            DIGITAL
+          </a>
+        </p>
         {physicalLink && (
           <p className="text-2xl font-extrabold bg-orange-200 p-3 rounded-lg">
             <a href={physicalLink} target="_blank">
