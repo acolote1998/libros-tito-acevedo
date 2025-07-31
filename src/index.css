@@ -1,35 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  /* Fondo principal: neutral, profesional */
-  --site-background-color: #f5f7f9; /* Gris claro casi blanco */
+  /* Background: warm and cozy */
+  --site-background-color: #f3e9dc; /* Soft warm ivory */
 
-  /* Texto principal: sobrio y legible */
-  --site-text-color: #1f1f1f;
+  /* Main text: easy on the eyes */
+  --site-text-color: #4a3c31; /* Deep coffee brown */
 
-  /* Cabecera y pie: profesional, moderno */
-  --headerfooter-background-color: #0f2c3a; /* Azul petróleo oscuro */
-  --headerfooter-text-color: #ffffff;
+  /* Header/Footer: grounded and elegant */
+  --headerfooter-background-color: #7a5c44; /* Warm chestnut brown */
+  --headerfooter-text-color: #fff8f0; /* Off-white, gentle contrast */
 
-  /* Títulos: contrastantes, serios */
-  --title-text-color: #0f2c3a;
+  /* Titles: strong but warm */
+  --title-text-color: #5c3a21; /* Rich dark brown */
 
-  /* Texto destacado del home */
-  --home-text-color: #0f2c3a;
+  /* Home highlight text */
+  --home-text-color: #7a5c44; /* Matches header/footer bg */
 
-  /* Botones: visibles pero elegantes */
-  --button-background-color: #1e5162; /* Azul petróleo intermedio */
-  --button-text-color: #ffffff;
-  --button-border-color: #14404f;
+  /* Buttons: inviting and natural */
+  --button-background-color: #b9743f; /* Burnt caramel */
+  --button-text-color: #fff8f0;
+  --button-border-color: #8c5e2f; /* Dark caramel */
 
-  /* Tarjetas de producto / items */
-  --item-background-color: #ffffff; /* Fondo limpio */
-  --item-text-color: #1f1f1f;
+  /* Item cards: subtle and soft */
+  --item-background-color: #fff6e8; /* Pale parchment */
+  --item-text-color: #4a3c31;
 
-  /* Acento: detalles, íconos, precios */
-  --accent-color: #e67e22; /* Naranja suave, contrasta sin romper armonía */
+  /* Accent: for links, prices, icons */
+  --accent-color: #d97d30; /* Autumn orange */
 
-  --footer-icon-line-color: white;
+  --footer-icon-line-color: #fff8f0;
 }
 
 body {
