@@ -34,10 +34,22 @@ function RouteComponent() {
 
   return (
     <div className="flex flex-col items-center mt-7 gap-5 text-center pl-3 pr-3">
-      <h1 className="bg-orange-200 text-5xl p-4 rounded-lg">
+      <h1
+        style={{
+          color: "var(--item-text-color)",
+          backgroundColor: "var(--item-background-color)",
+        }}
+        className=" text-5xl p-4 rounded-lg"
+      >
         {bookData && bookData.title}
       </h1>
-      <div className="flex flex-col text-center bg-orange-200 p-3 rounded-lg gap-2">
+      <div
+        style={{
+          color: "var(--item-text-color)",
+          backgroundColor: "var(--item-background-color)",
+        }}
+        className="flex flex-col text-center p-3 rounded-lg gap-2"
+      >
         <div className="flex gap-2 ">
           <img className="h-72" src={bookData?.imgBack} />
           <img className="h-72" src={bookData?.imgFront} />
@@ -46,7 +58,13 @@ function RouteComponent() {
           {bookData && bookData.desc}
         </p>
       </div>
-      <div className="flex flex-col text-center text-2xl bg-orange-200 p-3 rounded-lg">
+      <div
+        style={{
+          color: "var(--item-text-color)",
+          backgroundColor: "var(--item-background-color)",
+        }}
+        className="flex flex-col text-center text-2xl  p-3 rounded-lg"
+      >
         <p>CONSEGUI TU LIBRO</p>
       </div>
       <div className="flex text-center gap-2">
