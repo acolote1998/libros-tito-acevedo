@@ -1,6 +1,7 @@
 import { createFileRoute, useSearch } from "@tanstack/react-router";
 import useBook from "../../hooks/useBook";
 import { useEffect, useState } from "react";
+import CustomButton from "../../components/CustomButton";
 
 export const Route = createFileRoute("/books/$bookId")({
   component: RouteComponent,
@@ -49,17 +50,23 @@ function RouteComponent() {
         <p>CONSEGUI TU LIBRO</p>
       </div>
       <div className="flex text-center gap-2">
-        <p className="text-2xl bg-orange-200 font-extrabold p-3 rounded-lg">
-          <a href={digitalLink ?? bookData?.digital?.[0]?.link} target="_blank">
-            DIGITAL
-          </a>
-        </p>
+        <CustomButton
+          fontType="extrabold"
+          textSize="2xl"
+          link={digitalLink ?? bookData?.digital?.[0]?.link}
+          heightPorcentViewport="7"
+          widthPorcentViewport="30"
+          text="DIGITAL"
+        />
         {physicalLink && (
-          <p className="text-2xl font-extrabold bg-orange-200 p-3 rounded-lg">
-            <a href={physicalLink} target="_blank">
-              FISICO
-            </a>
-          </p>
+          <CustomButton
+            fontType="extrabold"
+            textSize="2xl"
+            link={physicalLink}
+            heightPorcentViewport="7"
+            widthPorcentViewport="30"
+            text="FISICO"
+          />
         )}
       </div>
     </div>
