@@ -29,7 +29,7 @@ const CustomButton = ({
         color: "var(--button-text-color)",
         borderColor: "var(--button-border-color)",
       }}
-      className={`border-1 text-center p-2 cursor-pointer text-${textSize} font-${fontType} rounded-lg`}
+      className={`flex border-1 items-center justify-center text-center cursor-pointer text-${textSize} font-${fontType} rounded-lg`}
     >
       <a
         style={{ color: "var(--button-text-color)" }}
