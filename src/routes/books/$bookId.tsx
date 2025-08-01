@@ -39,7 +39,7 @@ function RouteComponent() {
           color: "var(--item-text-color)",
           backgroundColor: "var(--item-background-color)",
         }}
-        className=" text-2xl p-4 rounded-lg"
+        className="font-bold text-2xl p-4 rounded-lg"
       >
         {bookData && bookData.title}
       </h1>
