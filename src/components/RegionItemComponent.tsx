@@ -14,7 +14,7 @@ const RegionItemComponent = ({ desc, img, regionKey }: RegionItem) => {
         backgroundColor: "var(--item-background-color)",
         color: "var(--item-text-color)",
       }}
-      className="bg-orange-200 flex flex-col items-center w-full rounded-2xl border-1 cursor-pointer"
+      className="flex flex-col justify-center text-center items-center w-full rounded-2xl border-1 cursor-pointer"
       onClick={() => {
         navigate({
           to: "/books/$bookId",
