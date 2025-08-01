@@ -13,7 +13,7 @@ const BookItemComponent = ({ img, title, id }: BookItem) => {
         navigate({ to: "/regions", search: { bookId: id } });
       }}
     >
-      <h1 className="text-xl font-bold mb-2">{title}</h1>
+      <h1 className="text-xl md:text-3xl font-bold mb-2 md:mb-6">{title}</h1>
       <img src={img} className="w-35"></img>
       {/* <div className="pl-2">
         <h2>{desc}</h2>
