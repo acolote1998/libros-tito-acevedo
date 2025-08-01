@@ -18,27 +18,27 @@ const CustomButton = ({
   callBack,
 }: CustomButtonType) => {
   return (
-    <p
-      onClick={() => {
-        if (callBack) callBack();
-      }}
-      style={{
-        width: `${widthPorcentViewport}vw`,
-        height: `${heightPorcentViewport}vh`,
-        backgroundColor: "var(--button-background-color)",
-        color: "var(--button-text-color)",
-        borderColor: "var(--button-border-color)",
-      }}
-      className={`flex border-1 items-center justify-center text-center cursor-pointer text-${textSize} font-${fontType} rounded-lg`}
+    <a
+      style={{ color: "var(--button-text-color)" }}
+      href={link}
+      target="_blank"
     >
-      <a
-        style={{ color: "var(--button-text-color)" }}
-        href={link}
-        target="_blank"
+      <p
+        onClick={() => {
+          if (callBack) callBack();
+        }}
+        style={{
+          width: `${widthPorcentViewport}vw`,
+          height: `${heightPorcentViewport}vh`,
+          backgroundColor: "var(--button-background-color)",
+          color: "var(--button-text-color)",
+          borderColor: "var(--button-border-color)",
+        }}
+        className={`flex border-1 items-center justify-center text-center cursor-pointer text-${textSize} font-${fontType} rounded-lg`}
       >
         {text}
-      </a>
-    </p>
+      </p>
+    </a>
   );
 };
 
