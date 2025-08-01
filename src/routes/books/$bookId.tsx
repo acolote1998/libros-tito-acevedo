@@ -33,13 +33,13 @@ function RouteComponent() {
   }, [region, bookData]);
 
   return (
-    <div className="flex flex-col items-center mt-7 gap-3 text-center pl-3 pr-3 mb-10">
+    <div className="flex flex-col md:flex-row items-center md:justify-center mt-7 gap-3 text-center pl-3 pr-3 mb-10">
       <h1
         style={{
           color: "var(--item-text-color)",
           backgroundColor: "var(--item-background-color)",
         }}
-        className="font-bold text-2xl p-4 rounded-lg"
+        className="md:hidden font-bold text-2xl p-4 rounded-lg"
       >
         {bookData && bookData.title}
       </h1>
@@ -51,14 +51,14 @@ function RouteComponent() {
         className="flex flex-col text-center p-3 rounded-lg gap-2"
       >
         <div className="flex items-center justify-center gap-2 ">
-          <img className="h-55" src={bookData?.imgBack} />
-          <img className="h-55" src={bookData?.imgFront} />
+          <img className="h-55 md:h-125" src={bookData?.imgBack} />
+          <img className="h-55 md:h-125" src={bookData?.imgFront} />
         </div>
-        <p className="text-lg w-[90vw] max-h-[15vh] overflow-y-scroll">
+        <p className="md:hidden text-lg w-[90vw] max-h-[15vh] overflow-y-scroll">
           {bookData && bookData.desc}
         </p>
       </div>
-      <div
+      {/* <div
         style={{
           color: "var(--item-text-color)",
           backgroundColor: "var(--item-background-color)",
@@ -68,26 +68,68 @@ function RouteComponent() {
         <p className="text-lg font-bold p-1 rounded-lg tracking-wide uppercase shadow-inner">
           CONSEGUI TU COPIA!
         </p>
-      </div>
-      <div className="flex text-center gap-2">
-        <CustomButton
-          fontType="bold"
-          textSize="2xl"
-          link={digitalLink ?? bookData?.digital?.[0]?.link}
-          heightPorcentViewport="7"
-          widthPorcentViewport="30"
-          text="DIGITAL"
-        />
-        {physicalLink && (
-          <CustomButton
-            fontType="bold"
-            textSize="2xl"
-            link={physicalLink}
-            heightPorcentViewport="7"
-            widthPorcentViewport="30"
-            text="FISICO"
-          />
-        )}
+      </div> */}
+      <div className="md:w-[50vw] md:flex md:flex-col md:items-center">
+        <h1
+          style={{
+            color: "var(--item-text-color)",
+            backgroundColor: "var(--item-background-color)",
+          }}
+          className="hidden md:block font-bold text-6xl p-4 mb-10 rounded-lg"
+        >
+          {bookData && bookData.title}
+        </h1>
+        <p
+          style={{
+            color: "var(--item-text-color)",
+            backgroundColor: "var(--item-background-color)",
+          }}
+          className="hidden md:block text-xl w-[45vw] max-h-[25vh] overflow-y-scroll"
+        >
+          {bookData && bookData.desc}
+        </p>
+        <div className="flex text-center gap-2">
+          <div className="flex gap-5 md:hidden">
+            <CustomButton
+              fontType="bold"
+              textSize="2xl"
+              link={digitalLink ?? bookData?.digital?.[0]?.link}
+              heightPorcentViewport="7"
+              widthPorcentViewport="30"
+              text="DIGITAL"
+            />
+            {physicalLink && (
+              <CustomButton
+                fontType="bold"
+                textSize="2xl"
+                link={physicalLink}
+                heightPorcentViewport="7"
+                widthPorcentViewport="30"
+                text="FISICO"
+              />
+            )}
+          </div>
+          <div className="hidden md:flex gap-10 items-center justify-center mt-10">
+            <CustomButton
+              fontType="bold"
+              textSize="4xl"
+              link={digitalLink ?? bookData?.digital?.[0]?.link}
+              heightPorcentViewport="10"
+              widthPorcentViewport="15"
+              text="DIGITAL"
+            />
+            {physicalLink && (
+              <CustomButton
+                fontType="bold"
+                textSize="4xl"
+                link={physicalLink}
+                heightPorcentViewport="10"
+                widthPorcentViewport="15"
+                text="FISICO"
+              />
+            )}
+          </div>
+        </div>
       </div>
     </div>
   );
