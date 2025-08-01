@@ -17,18 +17,18 @@
     { "link": "https://www.amazon.in/dp/B0FJ91ZYQR", "region": "IN" }
   ],
   "physical": [
-    { "link": "https://www.amazon.com/dp/B0FJ885SD5", "region": "US" },
-    { "link": "https://www.amazon.co.uk/dp/B0FJ885SD5", "region": "UK" },
-    { "link": "https://www.amazon.de/dp/B0FJ885SD5", "region": "DE" },
-    { "link": "https://www.amazon.fr/dp/B0FJ885SD5", "region": "FR" },
-    { "link": "https://www.amazon.es/dp/B0FJ885SD5", "region": "ES" },
-    { "link": "https://www.amazon.it/dp/B0FJ885SD5", "region": "IT" },
-    { "link": "https://www.amazon.nl/dp/B0FJ885SD5", "region": "NL" },
-    { "link": "https://www.amazon.pl/dp/B0FJ885SD5", "region": "PL" },
-    { "link": "https://www.amazon.se/dp/B0FJ885SD5", "region": "SE" },
-    { "link": "https://www.amazon.co.jp/dp/B0FJ885SD5", "region": "JP" },
-    { "link": "https://www.amazon.ca/dp/B0FJ885SD5", "region": "CA" },
-    { "link": "https://www.amazon.com.au/dp/B0FJ885SD5", "region": "AU" }
+    { "link": "https://www.amazon.com/dp/631007475X", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/631007475X", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/631007475X", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/631007475X", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/631007475X", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/631007475X", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/631007475X", "region": "NL" },
+    { "link": "https://www.amazon.pl/dp/631007475X", "region": "PL" },
+    { "link": "https://www.amazon.se/dp/631007475X", "region": "SE" },
+    { "link": "https://www.amazon.co.jp/dp/631007475X", "region": "JP" },
+    { "link": "https://www.amazon.ca/dp/631007475X", "region": "CA" },
+    { "link": "https://www.amazon.com.au/dp/631007475X", "region": "AU" }
   ],
   "imgFront": "/books/apuntesDeUnPataIPerroTapa.png",
   "imgBack": "/books/apuntesDeUnPataIPerroContraTapa.png"
