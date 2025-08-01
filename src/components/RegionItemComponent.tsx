@@ -23,7 +23,7 @@ const RegionItemComponent = ({ desc, img, regionKey }: RegionItem) => {
         });
       }}
     >
-      <img src={img} className="p-5"></img>
+      <img src={img} className="p-5 md:pl-15 md:pr-15"></img>
       <h1 className="md:text-3xl">{desc}</h1>
     </div>
   );
