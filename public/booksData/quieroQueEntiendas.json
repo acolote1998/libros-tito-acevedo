@@ -30,6 +30,6 @@
     { "link": "https://www.amazon.ca/dp/B0FJ885SD5", "region": "CA" },
     { "link": "https://www.amazon.com.au/dp/B0FJ885SD5", "region": "AU" }
   ],
-  "imgFront": "/books/quieroQueEntiendas.png",
+  "imgFront": "/books/quieroQueEntiendasTapa.png",
   "imgBack": "/books/quieroQueEntiendasContraTapa.png"
 }
