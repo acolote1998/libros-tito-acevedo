@@ -34,5 +34,11 @@
     "img": "./books/quieroQueEntiendasTapa.png",
     "title": "Quiero que entiendas",
     "desc": ""
+  },
+  {
+    "id": "sognatDeFinDeSiglo",
+    "img": "./books/sognatDeFinDeSigloTapa.png",
+    "title": "Sognat de fin de siglo",
+    "desc": ""
   }
 ]

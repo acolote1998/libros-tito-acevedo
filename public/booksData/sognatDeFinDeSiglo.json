@@ -1,0 +1,35 @@
+{
+  "desc": "Prólogo. Hay cosas que no son posibles en Córdoba. Pasar por la orilla de una vereda incierta pero siempre nueva, por ejemplo. No es posible hacerlo sin saber que ese lugar es el lugar donde encuentran sus latidos los amantes de la vida. La calle está y están también su oscuridad, sus injusticias. Pero el latido atraviesa todo eso y descubre el otro lado del enigma, un rozar de alas que alguien no escuchó. Ese descubrimiento es el que hace Tito. Y en esa forma de versos lo entrega en estas páginas que sí son posibles en su realidad tangible. Hay ternura y honda pena en sus escritos. Belleza, bronca. Registro de lo que fuimos y por lo tanto de lo que somos. Porque Tito Acevedo no es sólo él en sus poemas: es toda una generación que vive y sufre y canta y grita con ese mismo grito obstinado y loco. Gentes que queremos la sonrisa, porque en ella nos reconocemos; él la entrega y mete también su alma y la memoria. La memoria. Todavía hay una Córdoba que es un poco Tito. Y para quién comparte su noche y su arte, estos poemas serán como un amigo fiel. A esta altura lo sabemos: hemos soñado y hemos vuelto a nacer. Construimos sobre equipos de sonido, sobre diarios solidarios. Imaginamos a toda esa gente viviendo en paz. Caminamos. ¿Y, que otra cosa podía haber entre papeles y sentires que no fuera la poesía? De manera paradigmática, Tito Acevedo vuelve desde la palabra a proponer un lugar del encuentro. Sus poemas nos representan, nos duelen. Tan pronto muestra los pequeños ritos cotidianos como un cansancio que es de todo, que no puede comprar “ni una sonrisa, ni un pan, ni un ronquido”. ¿Quién sabe donde, las “lunas morenas”? ¿Quién sabe dónde, el “monte azul”? Revela a los amigos, al tiempo de la infancia, invoca las almohadas y la música, se adivina una aceptación de la existencia tal cuál es, y al mismo tiempo una disposición alerta a cambiar todo. A romper, bah. Que es lo que hace cuando arremete con el verso. Tito escribe poesía con su vida, porque provoca el encuentro entre quienes se aman, convocando desde su siempre cambiantes sempiternos y bienaventurados boliches. O lo que es o mismo: convocando a la poesía. Juega y empuja con fuerza a la esperanza, porque él dice que esperemos, que hay que esperar, que “los trenes, la risa y los conejos / siempre vuelven”. Ahí está el secreto. Ahora ya lo saben, lo tienen en sus manos. Marta Bruno Cosquín, septiembre de 1997",
+  "title": "Sognat de fin de siglo",
+  "digital": [
+    { "link": "https://www.amazon.com/dp/B0FKPQ6YCV", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/B0FKPQ6YCV", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/B0FKPQ6YCV", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/B0FKPQ6YCV", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/B0FKPQ6YCV", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/B0FKPQ6YCV", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/B0FKPQ6YCV", "region": "NL" },
+    { "link": "https://www.amazon.co.jp/dp/B0FKPQ6YCV", "region": "JP" },
+    { "link": "https://www.amazon.com.br/dp/B0FKPQ6YCV", "region": "BR" },
+    { "link": "https://www.amazon.ca/dp/B0FKPQ6YCV", "region": "CA" },
+    { "link": "https://www.amazon.com.mx/dp/B0FKPQ6YCV", "region": "MX" },
+    { "link": "https://www.amazon.com.au/dp/B0FKPQ6YCV", "region": "AU" },
+    { "link": "https://www.amazon.in/dp/B0FKPQ6YCV", "region": "IN" }
+  ],
+  "physical": [
+    { "link": "", "region": "US" },
+    { "link": "", "region": "UK" },
+    { "link": "", "region": "DE" },
+    { "link": "", "region": "FR" },
+    { "link": "", "region": "ES" },
+    { "link": "", "region": "IT" },
+    { "link": "", "region": "NL" },
+    { "link": "", "region": "PL" },
+    { "link": "", "region": "SE" },
+    { "link": "", "region": "JP" },
+    { "link": "", "region": "CA" },
+    { "link": "", "region": "AU" }
+  ],
+  "imgFront": "/books/sognatDeFinDeSigloTapa.png",
+  "imgBack": "/books/sognatDeFinDeSigloContraTapa.png"
+}
