@@ -33,7 +33,7 @@ function RouteComponent() {
   }, [region, bookData]);
 
   return (
-    <div className="flex flex-col items-center mt-7 gap-3 text-center pl-3 pr-3">
+    <div className="flex flex-col items-center mt-7 gap-3 text-center pl-3 pr-3 mb-10">
       <h1
         style={{
           color: "var(--item-text-color)",
@@ -58,7 +58,7 @@ function RouteComponent() {
           {bookData && bookData.desc}
         </p>
       </div>
-      {/* <div
+      <div
         style={{
           color: "var(--item-text-color)",
           backgroundColor: "var(--item-background-color)",
@@ -68,7 +68,7 @@ function RouteComponent() {
         <p className="text-lg font-bold p-1 rounded-lg tracking-wide uppercase shadow-inner">
           CONSEGUI TU COPIA!
         </p>
-      </div> */}
+      </div>
       <div className="flex text-center gap-2">
         <CustomButton
           fontType="bold"
