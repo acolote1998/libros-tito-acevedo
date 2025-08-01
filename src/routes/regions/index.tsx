@@ -23,11 +23,11 @@ function RouteComponent() {
       </h1>
       <h2
         style={{ color: "var(--title-text-color)" }}
-        className="text-2xl text-center mt-4 mb-2"
+        className="text-2xl md:text-3xl text-center mt-4 mb-2"
       >
         Seleccione la región más próxima a su ubicación
       </h2>
-      <div className="grid grid-cols-3 gap-4 p-3 mb-14">
+      <div className="grid grid-cols-3 md:grid-cols-5 gap-4 p-3 mb-14">
         {regions && regions.map((b) => <RegionItemComponent {...b} />)}
       </div>
     </div>
