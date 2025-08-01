@@ -9,7 +9,7 @@ function Index() {
   const navigate = useNavigate();
   return (
     <div className="bg-[url('/herodarkervertical.png')] md:bg-[url('/bg-library.png')] bg-cover h-svh">
-      <div className="md:flex items-center justify-center h-full">
+      <div className="md:flex items-center justify-center h-full gap-50">
         <div className="flex flex-col h-full justify-end md:justify-center">
           <div
             style={{ color: "var(--home-text-color)" }}
@@ -17,7 +17,7 @@ function Index() {
           >
             <div className="display md:hidden">
               <h1>Tito Acevedo</h1>
-              <h1>Libros</h1>
+              {/* <h1>Libros</h1> */}
             </div>
             <h1 className="hidden text-8xl mb-10 md:block">Tito Acevedo</h1>
           </div>
