@@ -1,4 +1,5 @@
 [
+  { "img": "./flags/ar_flag.png", "regionKey": "br", "desc": "Argentina" },
   { "img": "./flags/br_flag.png", "regionKey": "br", "desc": "Brasil" },
   { "img": "./flags/mx_flag.png", "regionKey": "mx", "desc": "México" },
   { "img": "./flags/us_flag.png", "regionKey": "us", "desc": "Estados Unidos" },
