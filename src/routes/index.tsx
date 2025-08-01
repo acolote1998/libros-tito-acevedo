@@ -25,9 +25,9 @@ function Index() {
             style={{ color: "var(--home-text-color" }}
             className=" text-md md:text-3xl flex items-center md:items-start flex-col gap-3 md:gap-10 pt-5"
           >
-            <h2>ESCRITOR DE CULTURA ARGENTINA</h2>
-            <h2>RELATO Y DESCRIBO MIS VIAJES POR EL MUNDO</h2>
-            <h2>LIBROS CON IDENTIDAD Y RAICES</h2>
+            <h2>ESCRITOR DE ARGENTINA</h2>
+            {/* <h2>RELATO Y DESCRIBO MIS VIAJES POR EL MUNDO</h2> */}
+            <h2>LIBROS CON RAÍCES E IDENTIDAD</h2>
           </div>
           <div className="flex justify-center cursor-pointer mt-2 mb-2">
             <div className="block md:hidden">
