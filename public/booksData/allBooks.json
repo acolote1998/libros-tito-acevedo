@@ -1,44 +1,50 @@
 [
   {
-    "id": "tribusUrbanas",
-    "img": "./books/tribusUrbanasTapa.png",
-    "title": "Tribus Urbanas",
+    "id": "apuntesDeUnPataIPerro",
+    "img": "./books/apuntesDeUnPataIPerroTapa.png",
+    "title": "Apuntes de un pata i' perro (2025)",
     "desc": ""
   },
   {
     "id": "tonosYToneles",
     "img": "./books/tonosYTonelesTapa.png",
-    "title": "Tonos y Toneles",
+    "title": "Tonos y Toneles (2025)",
     "desc": ""
   },
   {
-    "id": "laMemoriaDeLosBoliches",
-    "img": "./books/laMemoriaDeLosBolichesTapa.png",
-    "title": "La memoria de los boliches",
+    "id": "tribusUrbanas",
+    "img": "./books/tribusUrbanasTapa.png",
+    "title": "Tribus Urbanas (2024)",
     "desc": ""
   },
   {
     "id": "bares",
     "img": "./books/baresTapa.png",
-    "title": "Bares",
-    "desc": ""
-  },
-  {
-    "id": "apuntesDeUnPataIPerro",
-    "img": "./books/apuntesDeUnPataIPerroTapa.png",
-    "title": "Apuntes de un pata i' perro",
-    "desc": ""
-  },
-  {
-    "id": "quieroQueEntiendas",
-    "img": "./books/quieroQueEntiendasTapa.png",
-    "title": "Quiero que entiendas",
+    "title": "Bares (2007)",
     "desc": ""
   },
   {
     "id": "sognatDeFinDeSiglo",
     "img": "./books/sognatDeFinDeSigloTapa.png",
-    "title": "Sognat de fin de siglo",
+    "title": "Sognat de fin de siglo (1998)",
+    "desc": ""
+  },
+  {
+    "id": "laMemoriaDeLosBoliches",
+    "img": "./books/laMemoriaDeLosBolichesTapa.png",
+    "title": "La memoria de los boliches (1996)",
+    "desc": ""
+  },
+  {
+    "id": "quieroQueEntiendas",
+    "img": "./books/quieroQueEntiendasTapa.png",
+    "title": "Quiero que entiendas (1991)",
+    "desc": ""
+  },
+  {
+    "id": "genteTiempo",
+    "img": "./books/genteTiempoTapa.png",
+    "title": "Gente Tiempo (1972)",
     "desc": ""
   }
 ]

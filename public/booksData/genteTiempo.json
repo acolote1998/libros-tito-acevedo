@@ -1,0 +1,35 @@
+{
+  "desc": "Muy triste vive mi gente. Son tonos grises sus pasos, con ruido a tormenta su rutina. Claro, mi gente sufre, tiene miedo, espera… Cada vez se acumulan más los nubarrones… Claro, mi gente sufre Tiene miedo y espera…  Ya el trueno esta en su voz se va animando, ya no quiere esperar. Claro, mi gente sufre… Cuando llueva el rayo iluminara el camino",
+  "title": "Gente Tiempo",
+  "digital": [
+    { "link": "https://www.amazon.com/dp/B0FLCP2Z6F", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/B0FLCP2Z6F", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/B0FLCP2Z6F", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/B0FLCP2Z6F", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/B0FLCP2Z6F", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/B0FLCP2Z6F", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/B0FLCP2Z6F", "region": "NL" },
+    { "link": "https://www.amazon.co.jp/dp/B0FLCP2Z6F", "region": "JP" },
+    { "link": "https://www.amazon.com.br/dp/B0FLCP2Z6F", "region": "BR" },
+    { "link": "https://www.amazon.ca/dp/B0FLCP2Z6F", "region": "CA" },
+    { "link": "https://www.amazon.com.mx/dp/B0FLCP2Z6F", "region": "MX" },
+    { "link": "https://www.amazon.com.au/dp/B0FLCP2Z6F", "region": "AU" },
+    { "link": "https://www.amazon.in/dp/B0FLCP2Z6F", "region": "IN" }
+  ],
+  "physical": [
+    { "link": "", "region": "US" },
+    { "link": "", "region": "UK" },
+    { "link": "", "region": "DE" },
+    { "link": "", "region": "FR" },
+    { "link": "", "region": "ES" },
+    { "link": "", "region": "IT" },
+    { "link": "", "region": "NL" },
+    { "link": "", "region": "PL" },
+    { "link": "", "region": "SE" },
+    { "link": "", "region": "JP" },
+    { "link": "", "region": "CA" },
+    { "link": "", "region": "AU" }
+  ],
+  "imgFront": "/books/genteTiempoTapa.png",
+  "imgBack": "/books/genteTiempoContraTapa.png"
+}
