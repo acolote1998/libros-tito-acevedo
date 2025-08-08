@@ -6,17 +6,18 @@
     "desc": ""
   },
   {
-    "id": "tonosYToneles",
-    "img": "./books/tonosYTonelesTapa.png",
-    "title": "Tonos y Toneles (2025)",
-    "desc": ""
-  },
-  {
     "id": "tribusUrbanas",
     "img": "./books/tribusUrbanasTapa.png",
     "title": "Tribus Urbanas (2024)",
     "desc": ""
   },
+  {
+    "id": "tonosYToneles",
+    "img": "./books/tonosYTonelesTapa.png",
+    "title": "Tonos y Toneles (2019)",
+    "desc": ""
+  },
+
   {
     "id": "bares",
     "img": "./books/baresTapa.png",
