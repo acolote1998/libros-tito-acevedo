@@ -17,8 +17,8 @@
     { "link": "https://www.amazon.in/dp/B0FKPQ6YCV", "region": "IN" }
   ],
   "physical": [
-    { "link": "https://www.amazon.com/dp/B0FL12QRGT", "region": "US" },
-    { "link": "https://www.amazon.com/dp/B0FL12QRGT", "region": "US" },
+    { "link": "https://www.amazon.com/dp/B0FL12QRGT", "region": "BR" },
+    { "link": "https://www.amazon.com/dp/B0FL12QRGT", "region": "MX" },
     { "link": "https://www.amazon.com/dp/B0FL12QRGT", "region": "US" },
     { "link": "https://www.amazon.co.uk/dp/B0FL12QRGT", "region": "UK" },
     { "link": "https://www.amazon.de/dp/B0FL12QRGT", "region": "DE" },
