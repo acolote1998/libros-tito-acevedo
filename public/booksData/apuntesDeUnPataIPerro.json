@@ -17,6 +17,8 @@
     { "link": "https://www.amazon.in/dp/B0FJ91ZYQR", "region": "IN" }
   ],
   "physical": [
+    { "link": "https://www.amazon.com/dp/631007475X", "region": "BR" },
+    { "link": "https://www.amazon.com/dp/631007475X", "region": "MX" },
     { "link": "https://www.amazon.com/dp/631007475X", "region": "US" },
     { "link": "https://www.amazon.co.uk/dp/631007475X", "region": "UK" },
     { "link": "https://www.amazon.de/dp/631007475X", "region": "DE" },
