@@ -17,18 +17,18 @@
     { "link": "https://www.amazon.in/dp/B0FLCP2Z6F", "region": "IN" }
   ],
   "physical": [
-    { "link": "", "region": "US" },
-    { "link": "", "region": "UK" },
-    { "link": "", "region": "DE" },
-    { "link": "", "region": "FR" },
-    { "link": "", "region": "ES" },
-    { "link": "", "region": "IT" },
-    { "link": "", "region": "NL" },
-    { "link": "", "region": "PL" },
-    { "link": "", "region": "SE" },
-    { "link": "", "region": "JP" },
-    { "link": "", "region": "CA" },
-    { "link": "", "region": "AU" }
+    { "link": "https://www.amazon.com/dp/B0FLV7MCDJ", "region": "US" },
+    { "link": "https://www.amazon.co.uk/dp/B0FLV7MCDJ", "region": "UK" },
+    { "link": "https://www.amazon.de/dp/B0FLV7MCDJ", "region": "DE" },
+    { "link": "https://www.amazon.fr/dp/B0FLV7MCDJ", "region": "FR" },
+    { "link": "https://www.amazon.es/dp/B0FLV7MCDJ", "region": "ES" },
+    { "link": "https://www.amazon.it/dp/B0FLV7MCDJ", "region": "IT" },
+    { "link": "https://www.amazon.nl/dp/B0FLV7MCDJ", "region": "NL" },
+    { "link": "https://www.amazon.pl/dp/B0FLV7MCDJ", "region": "PL" },
+    { "link": "https://www.amazon.se/dp/B0FLV7MCDJ", "region": "SE" },
+    { "link": "https://www.amazon.co.jp/dp/B0FLV7MCDJ", "region": "JP" },
+    { "link": "https://www.amazon.ca/dp/B0FLV7MCDJ", "region": "CA" },
+    { "link": "https://www.amazon.com.au/dp/B0FLV7MCDJ", "region": "AU" }
   ],
   "imgFront": "/books/genteTiempoTapa.png",
   "imgBack": "/books/genteTiempoContraTapa.png"
