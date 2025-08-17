@@ -54,7 +54,7 @@ function Index() {
         </div>
         <img
           src="/horizontalHero.png"
-          className="hidden md:block w-auto h-[75vh]"
+          className="hidden md:block w-auto h-[92vh]"
         />
       </div>
     </div>
