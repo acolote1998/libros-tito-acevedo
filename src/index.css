@@ -2,34 +2,33 @@
 
 :root {
   /* Colores base */
-  --site-background-color: #f8f5f2; /* Beige muy claro - fondo cálido y acogedor */
-  --site-text-color: #333333; /* Gris oscuro - texto legible y profesional */
+  --site-background-color: #f5f7fa; /* Very light gray-blue */
+  --site-text-color: #1f2937; /* Dark slate for good contrast */
 
   /* Header y Footer */
-  --headerfooter-background-color: #3a2c1b; /* Marrón oscuro - elegante y sólido */
-  --headerfooter-text-color: #f8f5f2; /* Beige claro - contraste legible */
+  --headerfooter-background-color: #3b4a6b; /* Deep muted blue */
+  --headerfooter-text-color: #ffffff;
 
   /* Títulos */
-  --title-text-color: #8c5e3a; /* Marrón cálido - destaca pero no agresivo */
+  --title-text-color: #2d3e5e; /* Slightly lighter than header for readability */
 
   /* Texto de la página de inicio */
-  --home-text-color: #ffffff; /* Gris medio - legible pero suave */
+  --home-text-color: #ffffff; /* Cool gray for body text */
 
   /* Botones */
-  --button-background-color: #8c5e3a; /* Marrón cálido - coherente con títulos */
-  --button-text-color: #ffffff; /* Blanco - alto contraste */
-  --button-border-color: #6d4a2d; /* Marrón más oscuro - profundidad */
+  --button-background-color: #5c7ecb; /* Muted violet-blue */
+  --button-text-color: #ffffff;
+  --button-border-color: #3b4a6b;
 
   /* Cards/Ítems */
-  --item-background-color: #f2e6da; /* crema cálido que resalta sobre el fondo */
-
-  --item-text-color: #4a4a4a; /* Gris medio - legible pero no duro */
+  --item-background-color: #ffffff;
+  --item-text-color: #374151;
 
   /* Color de acento */
-  --accent-color: #c77d43; /* Naranja terroso - toque de energía */
+  --accent-color: #6d9efc; /* Brighter blue accent for links/icons/buttons */
 
   /* Líneas e íconos del footer */
-  --footer-icon-line-color: #d7b899; /* Beige dorado - detalle elegante */
+  --footer-icon-line-color: #94a3b8; /* Subtle cool gray-blue */
 }
 
 body {
