@@ -1,69 +1,29 @@
-# React + TypeScript + Vite
+# Libros Tito Acevedo – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_Find and buy Tito Acevedo’s books wherever you are._
 
-Currently, two official plugins are available:
+**Libros Tito Acevedo** is a responsive web application built with **React and TypeScript** that allows users to browse and purchase the books of the writer **Tito Acevedo**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live App: https://www.titoacevedolibros.com/
 
-## Expanding the ESLint configuration
+### How It Works
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Browse the books** – Users can see a list of available books by Tito Acevedo.
+- **Select a book** – Clicking on a book redirects the user to a page where they choose their closest region.
+- **Region-specific links** – The website then redirects to the book page with a region flag in the URL.
+- **Localized purchase options** – The book component reads the region flag and displays **Amazon links** specific to that region. On the book page, users can choose between buttons for:
+  - **Physical copy** – Link to the physical edition on Amazon.
+  - **Digital copy (Kindle)** – Link to the Kindle edition on Amazon.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- 📚 **Full book catalog** – View all available books from Tito Acevedo.
+- 🌎 **Regional support** – Region-specific links ensure correct Amazon storefronts.
+- 📱 **Fully responsive** – Optimized for desktop, tablet, and mobile devices.
+- ⚡ **Smooth user experience** – Easy navigation from catalog to purchase with clear options for physical or digital editions.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Purpose
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The app is designed to help fans of Tito Acevedo **find and buy his books quickly and conveniently**, no matter where they are in the world. By integrating regional options, multiple edition links, and a responsive layout, the platform makes the purchasing process seamless and user-friendly.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+This repository contains the **frontend component** of the project, which manages the user interface, handles regional redirection, and displays the books with appropriate purchase links for both physical and digital editions.
