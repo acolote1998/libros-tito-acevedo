@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as RegionsIndexRouteImport } from './routes/regions/index'
+import { Route as FaqIndexRouteImport } from './routes/faq/index'
 import { Route as BooksIndexRouteImport } from './routes/books/index'
 import { Route as BooksBookIdRouteImport } from './routes/books/$bookId'
 
@@ -22,6 +23,11 @@ const IndexRoute = IndexRouteImport.update({
 const RegionsIndexRoute = RegionsIndexRouteImport.update({
   id: '/regions/',
   path: '/regions/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FaqIndexRoute = FaqIndexRouteImport.update({
+  id: '/faq/',
+  path: '/faq/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BooksIndexRoute = BooksIndexRouteImport.update({
@@ -39,12 +45,14 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/books/$bookId': typeof BooksBookIdRoute
   '/books': typeof BooksIndexRoute
+  '/faq': typeof FaqIndexRoute
   '/regions': typeof RegionsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/books/$bookId': typeof BooksBookIdRoute
   '/books': typeof BooksIndexRoute
+  '/faq': typeof FaqIndexRoute
   '/regions': typeof RegionsIndexRoute
 }
 export interface FileRoutesById {
@@ -52,20 +60,22 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/books/$bookId': typeof BooksBookIdRoute
   '/books/': typeof BooksIndexRoute
+  '/faq/': typeof FaqIndexRoute
   '/regions/': typeof RegionsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/books/$bookId' | '/books' | '/regions'
+  fullPaths: '/' | '/books/$bookId' | '/books' | '/faq' | '/regions'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/books/$bookId' | '/books' | '/regions'
-  id: '__root__' | '/' | '/books/$bookId' | '/books/' | '/regions/'
+  to: '/' | '/books/$bookId' | '/books' | '/faq' | '/regions'
+  id: '__root__' | '/' | '/books/$bookId' | '/books/' | '/faq/' | '/regions/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BooksBookIdRoute: typeof BooksBookIdRoute
   BooksIndexRoute: typeof BooksIndexRoute
+  FaqIndexRoute: typeof FaqIndexRoute
   RegionsIndexRoute: typeof RegionsIndexRoute
 }
 
@@ -83,6 +93,13 @@ declare module '@tanstack/react-router' {
       path: '/regions'
       fullPath: '/regions'
       preLoaderRoute: typeof RegionsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/faq/': {
+      id: '/faq/'
+      path: '/faq'
+      fullPath: '/faq'
+      preLoaderRoute: typeof FaqIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/books/': {
@@ -106,6 +123,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BooksBookIdRoute: BooksBookIdRoute,
   BooksIndexRoute: BooksIndexRoute,
+  FaqIndexRoute: FaqIndexRoute,
   RegionsIndexRoute: RegionsIndexRoute,
 }
 export const routeTree = rootRouteImport

@@ -49,14 +49,14 @@ const FooterBar = () => {
       <div
         className="flex flex-col md:flex-row items-center gap-2 mt-2 md:mt-0"
         onClick={() => {
-          navigate({ to: "/books" });
+          navigate({ to: "/faq" });
         }}
       >
         <QuestionIcon width={30} />
         <p>Preguntas frecuentes</p>
       </div>
       <a
-        href="whatsapp://send/?phone=543513843215&text=_Este+es+un+mensaje+generado+autom%C3%A1ticamente+desde%3A+_++%0A%0A%2Atitoacevedolibros.com+%F0%9F%93%96%2A%0A................%0A%0AHola+Tito+%F0%9F%98%81%0A%0AMe+gustar%C3%ADa+ponerme+en+contacto+con+vos+%F0%9F%91%8D%EF%B8%8F"
+        href="whatsapp://send/?phone=543513843215&text=_Este+es+un+mensaje+generado+autom%C3%A1ticamente+desde%3A_++%0A%0A%2Atitoacevedolibros.com+%F0%9F%93%96%2A%0A................%0A%0AHola+Tito+%F0%9F%98%81%0A%0AMe+gustar%C3%ADa+ponerme+en+contacto+con+vos+%F0%9F%91%8D%EF%B8%8F"
         target="_blank"
       >
         <div
