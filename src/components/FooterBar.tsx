@@ -23,12 +23,16 @@ const FooterBar = () => {
     rounded-t-md
     z-50
     gap-2"
-      onClick={() => {
-        navigate({ to: "/books" });
-      }}
     >
-      <BookIcon width={36} />
-      <p className="font-bold text-md">Ver todos los libros</p>
+      <div
+        className="flex items-center gap-2 justify-center"
+        onClick={() => {
+          navigate({ to: "/books" });
+        }}
+      >
+        <BookIcon width={36} />
+        <p className="font-bold text-md">Ver todos los libros</p>
+      </div>
     </div>
   );
 };
