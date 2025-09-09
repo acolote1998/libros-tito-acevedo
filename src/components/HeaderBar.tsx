@@ -17,7 +17,8 @@ const HeaderBar = () => {
     align-middle
     top-0
     w-full
-    h-13
+    sm:h-13
+    h-fit
     border-b-1
     rounded-b-md
     z-50
@@ -26,7 +27,7 @@ const HeaderBar = () => {
         navigate({ to: "/" });
       }}
     >
-      <p className="font-bold text-2xl">Tito Acevedo Libros</p>
+      <p className="font-bold text-md sm:text-2xl">Tito Acevedo Libros</p>
     </div>
   );
 };

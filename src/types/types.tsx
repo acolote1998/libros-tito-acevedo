@@ -23,3 +23,8 @@ export type Region = {
   region: string;
   link: string;
 };
+
+export type FaqQuestionType = {
+  questionTitle: string;
+  questionAnswer: string;
+};

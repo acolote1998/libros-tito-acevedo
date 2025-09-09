@@ -8,7 +8,7 @@ export const Route = createFileRoute("/books/")({
 function RouteComponent() {
   const { data: allBooksData } = useAllBooks();
   return (
-    <div>
+    <div className="pb-13 md:0">
       <h1
         style={{ color: "var(--title-text-color)" }}
         className="text-5xl font-semibold mt-2 mb-2 text-center"
