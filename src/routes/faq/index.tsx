@@ -65,7 +65,7 @@ Su selección lo redirigirá a la página oficial del producto en Amazon.com. Al
         />
         <FaqItem
           questionTitle="¿Se puede imprimir un ebook una vez comprado?"
-          questionAnswer="Test"
+          questionAnswer="Por restricciones de derechos de autor (copyright) y protección del trabajo intelectual, los eBooks de Kindle no están diseñados para ser impresos. La licencia de compra otorga el derecho de lectura personal en dispositivos compatibles, pero no incluye la impresión del archivo."
         />
         <FaqItem
           questionTitle="¿Qué diferencia hay entre la versión digital y la versión en papel?"
