@@ -25,7 +25,13 @@ function RouteComponent() {
       <div>
         <FaqItem
           questionTitle="¿Cómo compro un libro desde Argentina?"
-          questionAnswer="Test"
+          questionAnswer="Comprar un libro desde Argentina es un proceso sencillo. En la barra de navegación inferior, debe hacer clic en el botón 'Ver todos los libros'. Seleccione el libro que le interese y luego elija su región o país más cercano. Allí se le mostrarán las opciones 'DIGITAL' y 'FÍSICO'.
+
+Si elige la opción 'DIGITAL', estará adquiriendo el libro en formato electrónico para leerlo de inmediato en dispositivos como teléfono, tablet o computadora.
+
+Si opta por 'FÍSICO', estará comprando el libro impreso en papel, que se enviará a su domicilio a través del servicio de correos.
+
+Su selección lo redirigirá a la página oficial del producto en Amazon.com. Allí, simplemente debe hacer clic en 'Comprar ahora' ('Buy Now') —o agregarlo a su carrito si compra mas de un libro, proceder al pago y completar la información requerida para finalizar la transacción. Amazon gestiona todo el proceso de forma segura."
         />
         <FaqItem
           questionTitle="¿Necesito una tarjeta en dólares para comprar en Amazon?"
