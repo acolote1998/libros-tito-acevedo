@@ -81,7 +81,7 @@ Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libr
       <div>
         <FaqItem
           questionTitle="¿Cuánto tarda en llegar un libro físico comprado en Amazon?"
-          questionAnswer="Test"
+          questionAnswer="El tiempo de entrega para libros físicos enviados por Amazon varía dependiendo de la logística, la aduana y la ubicación exacta dentro del país. Amazon proporcionará una estimación de fecha de entrega más precisa antes de que confirmes la compra."
         />
         <FaqItem
           questionTitle="¿Puedo conseguir los libros en librerías argentinas o solo online?"
