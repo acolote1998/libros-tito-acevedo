@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import FaqItem from "../../components/FaqItem";
 
 export const Route = createFileRoute("/faq/")({
   component: RouteComponent,
@@ -22,105 +23,100 @@ function RouteComponent() {
         Compras y pagos
       </h2>
       <div>
-        <details className="my-2">
-          <summary>¿Cómo compro un libro desde Argentina?</summary>
-          <p className="bg-[var(--headerfooter-background-color)] text-[var(--headerfooter-text-color)] rounded-sm p-1 text-sm tracking-tight">
-            Test
-          </p>
-        </details>
+        <FaqItem
+          questionTitle="¿Cómo compro un libro desde Argentina?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>
-            ¿Necesito una tarjeta en dólares para comprar en Amazon?
-          </summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Necesito una tarjeta en dólares para comprar en Amazon?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>¿Puedo pagar con tarjeta de débito argentina?</summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Puedo pagar con tarjeta de débito argentina?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>¿Es posible pagar en cuotas o solo en un pago?</summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Es posible pagar en cuotas o solo en un pago?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>
-            ¿Cómo se calcula el precio en pesos si el libro está en dólares?
-          </summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Cómo se calcula el precio en pesos si el libro está en dólares?"
+          questionAnswer="Test"
+        />
       </div>
       <hr className="w-[80vw] opacity-20" />
       <h2 className="text-lg italic underline underline-offset-2">
         Formatos y lectura
       </h2>
       <div>
-        <details className="my-2">
-          <summary>¿Qué es Kindle y cómo funciona?</summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Qué es Kindle y cómo funciona?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>
-            ¿Necesito tener un dispositivo Kindle o puedo leer en mi
-            celular/computadora?
-          </summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Necesito tener un dispositivo Kindle o puedo leer en mi celular/computadora?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>¿Se puede imprimir un ebook una vez comprado?</summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Se puede imprimir un ebook una vez comprado?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>
-            ¿Qué diferencia hay entre la versión digital y la versión en papel?
-          </summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Qué diferencia hay entre la versión digital y la versión en papel?"
+          questionAnswer="Test"
+        />
       </div>
       <hr className="w-[80vw] opacity-20" />
       <h2 className="text-lg italic underline underline-offset-2">
         Envíos y disponibilidad
       </h2>
       <div>
-        <details className="my-2">
-          <summary>
-            ¿Cuánto tarda en llegar un libro físico comprado en Amazon?
-          </summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Cuánto tarda en llegar un libro físico comprado en Amazon?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>
-            ¿Puedo conseguir los libros en librerías argentinas o solo online?
-          </summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Puedo conseguir los libros en librerías argentinas o solo online?"
+          questionAnswer="Test"
+        />
       </div>
       <hr className="w-[80vw] opacity-20" />
       <h2 className="text-lg italic underline underline-offset-2">
         Regalos y reseñas
       </h2>
       <div>
-        <details className="my-2">
-          <summary>¿Puedo regalar un libro digital a otra persona?</summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Puedo regalar un libro digital a otra persona?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>
-            ¿Dónde puedo dejar una reseña o comentario sobre el libro?
-          </summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Dónde puedo dejar una reseña o comentario sobre el libro?"
+          questionAnswer="Test"
+        />
       </div>
       <hr className="w-[80vw] opacity-20" />
       <h2 className="text-lg italic underline underline-offset-2">
         Sobre Tito y sus libros
       </h2>
       <div>
-        <details className="my-2">
-          <summary>¿En qué orden conviene leer los libros de Tito?</summary>
-        </details>
+        <FaqItem
+          questionTitle="¿En qué orden conviene leer los libros de Tito?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
-        <details className="my-2">
-          <summary>
-            ¿Cómo puedo contactar a Tito para consultas o invitaciones?
-          </summary>
-        </details>
+        <FaqItem
+          questionTitle="¿Cómo puedo contactar a Tito para consultas o invitaciones?"
+          questionAnswer="Test"
+        />
         <hr className="w-[15vw] opacity-40" />
       </div>
     </div>
