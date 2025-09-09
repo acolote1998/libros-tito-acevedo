@@ -6,7 +6,7 @@ export const Route = createFileRoute("/faq/")({
 
 function RouteComponent() {
   return (
-    <div className="mx-3">
+    <div className="mx-3 pb-26 md:pb-13">
       <h1
         style={{ color: "var(--title-text-color)" }}
         className="text-3xl font-semibold mt-2 mb-2 text-center"
