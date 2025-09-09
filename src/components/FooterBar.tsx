@@ -40,15 +40,12 @@ const FooterBar = () => {
         <BookIcon width={36} />
         <p>Ver todos los libros</p>
       </div>
-      <div
-        className="flex flex-col md:flex-row items-center gap-2"
-        onClick={() => {
-          navigate({ to: "/books" });
-        }}
-      >
-        <BrowserIcon width={36} />
-        <p>Más sobre mí</p>
-      </div>
+      <a href="https://titoacevedocultura.webnode.page/" target="_blank">
+        <div className="flex flex-col md:flex-row items-center gap-2">
+          <BrowserIcon width={36} />
+          <p>Más sobre mí</p>
+        </div>
+      </a>
       <div
         className="flex flex-col md:flex-row items-center gap-2 mt-2 md:mt-0"
         onClick={() => {
