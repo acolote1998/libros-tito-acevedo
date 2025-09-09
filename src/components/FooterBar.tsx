@@ -55,15 +55,20 @@ const FooterBar = () => {
         <QuestionIcon width={30} />
         <p>Preguntas frecuentes</p>
       </div>
-      <div
-        className="flex flex-col md:flex-row items-center gap-2 mt-2 md:mt-0"
-        onClick={() => {
-          navigate({ to: "/books" });
-        }}
+      <a
+        href="whatsapp://send/?phone=543513843215&text=_Este+es+un+mensaje+generado+autom%C3%A1ticamente+desde%3A+_++%0A%0A%2Atitoacevedolibros.com+%F0%9F%93%96%2A%0A................%0A%0AHola+Tito+%F0%9F%98%81%0A%0AMe+gustar%C3%ADa+ponerme+en+contacto+con+vos+%F0%9F%91%8D%EF%B8%8F"
+        target="_blank"
       >
-        <WhatsappIcon width={28} />
-        <p>Chatea conmigo</p>
-      </div>
+        <div
+          className="flex flex-col md:flex-row items-center gap-2 mt-2 md:mt-0"
+          onClick={() => {
+            navigate({ to: "/books" });
+          }}
+        >
+          <WhatsappIcon width={28} />
+          <p>Chatea conmigo</p>
+        </div>
+      </a>
     </div>
   );
 };
