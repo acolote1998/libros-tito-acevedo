@@ -61,7 +61,7 @@ Su selección lo redirigirá a la página oficial del producto en Amazon.com. Al
         />
         <FaqItem
           questionTitle="¿Necesito tener un dispositivo Kindle o puedo leer en mi celular/computadora?"
-          questionAnswer="Test"
+          questionAnswer="No necesitas un dispositivo Kindle físico! Podes leer los eBooks de Tito Acevedo en cualquier celular (Android o iPhone), tablet, computadora o incluso en tu navegador web. Solo necesitas descargar la aplicación gratuita 'Kindle' a tu dispositivo (desde App Store o Google Play Store) o desde la web de Amazon."
         />
         <FaqItem
           questionTitle="¿Se puede imprimir un ebook una vez comprado?"
