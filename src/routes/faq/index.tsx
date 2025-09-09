@@ -85,7 +85,7 @@ Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libr
         />
         <FaqItem
           questionTitle="¿Puedo conseguir los libros en librerías argentinas o solo online?"
-          questionAnswer="Test"
+          questionAnswer="Actualmente, la distribución principal de los libros de Tito Acevedo se realiza de forma online a través de Amazon, lo que garantiza su disponibilidad para todo el mundo."
         />
       </div>
       <hr className="w-[80vw] opacity-20" />
