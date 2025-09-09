@@ -43,7 +43,7 @@ Su selección lo redirigirá a la página oficial del producto en Amazon.com. Al
         />
         <FaqItem
           questionTitle="¿Es posible pagar en cuotas o solo en un pago?"
-          questionAnswer="Test"
+          questionAnswer="Amazon permite el pago en cuotas sin interés utilizando tarjetas de crédito de bancos que tengan un convenio con ellos. La disponibilidad de esta opción depende de tu banco y se mostrará como alternativa durante el proceso de pago en el sitio de Amazon si estuviese disponible."
         />
         <FaqItem
           questionTitle="¿Cómo se calcula el precio en pesos si el libro está en dólares?"
