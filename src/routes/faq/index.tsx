@@ -89,17 +89,11 @@ Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libr
         />
       </div>
       <hr className="w-[80vw] opacity-20" />
-      <h2 className="text-lg italic underline underline-offset-2">
-        Regalos y reseñas
-      </h2>
+      <h2 className="text-lg italic underline underline-offset-2">Reseñas</h2>
       <div>
         <FaqItem
-          questionTitle="¿Puedo regalar un libro digital a otra persona?"
-          questionAnswer="Test"
-        />
-        <FaqItem
           questionTitle="¿Dónde puedo dejar una reseña o comentario sobre el libro?"
-          questionAnswer="Test"
+          questionAnswer="¡Las reseñas son extremadamente valiosas para apoyar al autor! Podes (y te alentamos a) dejar tu opinión en la página del libro en Amazon. Baja hasta la sección 'Valoraciones y reseñas' y hacé clic en 'Escribir una reseña'. Tu experiencia ayuda a otros lectores a descubrir estas historias."
         />
       </div>
       <hr className="w-[80vw] opacity-20" />
