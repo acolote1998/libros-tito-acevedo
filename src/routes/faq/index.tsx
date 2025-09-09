@@ -107,7 +107,7 @@ Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libr
         />
         <FaqItem
           questionTitle="¿Cómo puedo contactar a Tito para consultas o invitaciones?"
-          questionAnswer="Para consultas profesionales, invitaciones a eventos o comentarios dirigidos, podés hacer clic en el ícono 'Chatea conmigo' en la barra de navegación inferior. Esto abrirá un chat de WhatsApp directo conmigo. También podés contactarme por correo electrónico escribiendo a acevedo.tito@gmail.com."
+          questionAnswer="Para consultas profesionales, invitaciones a eventos o comentarios dirigidos, podés hacer clic en el ícono 'Chatea conmigo' en la barra de navegación inferior. Esto abrirá un chat de WhatsApp directo conmigo. También podés contactarme por correo electrónico escribiendo a acevedo.tito@gmail.com"
         />
       </div>
     </div>
