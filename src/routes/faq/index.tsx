@@ -69,7 +69,9 @@ Su selección lo redirigirá a la página oficial del producto en Amazon.com. Al
         />
         <FaqItem
           questionTitle="¿Qué diferencia hay entre la versión digital y la versión en papel?"
-          questionAnswer="Test"
+          questionAnswer="Versión Digital (eBook/Kindle): Disponibilidad inmediata, precio más bajo, portabilidad de los libros en tu dispositivo. También permite ajustar el tamaño de la letra.
+
+Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libro tradicional. Amazon lo entrega a tu casa a través de su sistema de envíos y logística."
         />
       </div>
       <hr className="w-[80vw] opacity-20" />
