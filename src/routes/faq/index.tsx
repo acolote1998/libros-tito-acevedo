@@ -103,7 +103,7 @@ Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libr
       <div>
         <FaqItem
           questionTitle="¿En qué orden conviene leer los libros de Tito?"
-          questionAnswer="Test"
+          questionAnswer="Cada libro de Tito Acevedo está escrito para ser disfrutado de forma independiente. Sin embargo, si preferís seguir un orden temático o de publicación, te recomendamos leer en orden cronológico. Haciendo click en 'Ver todos los libros' en la barra de navegación inferior y deslizándote hasta el final, se encuentra 'Gente Tiempo' (1972), que es el primer libro escrito. Se recomienda leer desde ahí hacia arriba."
         />
         <FaqItem
           questionTitle="¿Cómo puedo contactar a Tito para consultas o invitaciones?"
