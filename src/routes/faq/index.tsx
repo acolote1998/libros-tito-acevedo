@@ -39,7 +39,7 @@ Su selección lo redirigirá a la página oficial del producto en Amazon.com. Al
         />
         <FaqItem
           questionTitle="¿Puedo pagar con tarjeta de débito argentina?"
-          questionAnswer="Test"
+          questionAnswer="Sí, siempre y cuando tu tarjeta de débito tenga habilitada la funcionalidad para compras internacionales online, lo cual hoy en día es lo normal. Para preguntas al respecto, te recomendamos contactar a tu banco."
         />
         <FaqItem
           questionTitle="¿Es posible pagar en cuotas o solo en un pago?"
