@@ -35,7 +35,7 @@ Su selección lo redirigirá a la página oficial del producto en Amazon.com. Al
         />
         <FaqItem
           questionTitle="¿Necesito una tarjeta en dólares para comprar en Amazon?"
-          questionAnswer="Test"
+          questionAnswer="No es necesario que tu tarjeta esté denominada en dólares (USD). Se puede utilizar una tarjeta de crédito o débito argentina, o de cualquier lugar. Amazon convierte automáticamente el precio final a pesos argentinos (ARS)."
         />
         <FaqItem
           questionTitle="¿Puedo pagar con tarjeta de débito argentina?"
