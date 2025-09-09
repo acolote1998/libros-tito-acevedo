@@ -57,7 +57,7 @@ Su selección lo redirigirá a la página oficial del producto en Amazon.com. Al
       <div>
         <FaqItem
           questionTitle="¿Qué es Kindle y cómo funciona?"
-          questionAnswer="Test"
+          questionAnswer="Kindle es el sistema de lectura digital de Amazon. Un libro en formato Kindle (también llamado eBook, o libro digital) es un archivo digital que podes comprar, descargar y leer al instante. Funciona a través de aplicaciones gratuitas (apps) o dispositivos específicos, permitiéndote llevar una biblioteca completa contigo."
         />
         <FaqItem
           questionTitle="¿Necesito tener un dispositivo Kindle o puedo leer en mi celular/computadora?"
