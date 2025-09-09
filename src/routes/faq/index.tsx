@@ -27,22 +27,18 @@ function RouteComponent() {
           questionTitle="¿Cómo compro un libro desde Argentina?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Necesito una tarjeta en dólares para comprar en Amazon?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Puedo pagar con tarjeta de débito argentina?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Es posible pagar en cuotas o solo en un pago?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Cómo se calcula el precio en pesos si el libro está en dólares?"
           questionAnswer="Test"
@@ -57,17 +53,14 @@ function RouteComponent() {
           questionTitle="¿Qué es Kindle y cómo funciona?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Necesito tener un dispositivo Kindle o puedo leer en mi celular/computadora?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Se puede imprimir un ebook una vez comprado?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Qué diferencia hay entre la versión digital y la versión en papel?"
           questionAnswer="Test"
@@ -82,7 +75,6 @@ function RouteComponent() {
           questionTitle="¿Cuánto tarda en llegar un libro físico comprado en Amazon?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Puedo conseguir los libros en librerías argentinas o solo online?"
           questionAnswer="Test"
@@ -97,7 +89,6 @@ function RouteComponent() {
           questionTitle="¿Puedo regalar un libro digital a otra persona?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Dónde puedo dejar una reseña o comentario sobre el libro?"
           questionAnswer="Test"
@@ -112,12 +103,10 @@ function RouteComponent() {
           questionTitle="¿En qué orden conviene leer los libros de Tito?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
         <FaqItem
           questionTitle="¿Cómo puedo contactar a Tito para consultas o invitaciones?"
           questionAnswer="Test"
         />
-        <hr className="w-[15vw] opacity-40" />
       </div>
     </div>
   );
