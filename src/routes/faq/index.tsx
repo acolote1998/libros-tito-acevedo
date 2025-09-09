@@ -19,7 +19,7 @@ function RouteComponent() {
         clickeala
       </p>
       <hr className="w-[80vw] opacity-20" />
-      <h2 className="text-lg italic underline underline-offset-2">
+      <h2 className="md:text-center md:text-3xl text-lg italic underline underline-offset-2">
         Compras y pagos
       </h2>
       <div>
@@ -51,7 +51,7 @@ Su selección lo redirigirá a la página oficial del producto en Amazon.com. Al
         />
       </div>
       <hr className="w-[80vw] opacity-20" />
-      <h2 className="text-lg italic underline underline-offset-2">
+      <h2 className="md:text-center md:text-3xl text-lg italic underline underline-offset-2">
         Formatos y lectura
       </h2>
       <div>
@@ -75,7 +75,7 @@ Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libr
         />
       </div>
       <hr className="w-[80vw] opacity-20" />
-      <h2 className="text-lg italic underline underline-offset-2">
+      <h2 className="md:text-center md:text-3xl text-lg italic underline underline-offset-2">
         Envíos y disponibilidad
       </h2>
       <div>
@@ -89,7 +89,9 @@ Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libr
         />
       </div>
       <hr className="w-[80vw] opacity-20" />
-      <h2 className="text-lg italic underline underline-offset-2">Reseñas</h2>
+      <h2 className="md:text-center md:text-3xl text-lg italic underline underline-offset-2">
+        Reseñas
+      </h2>
       <div>
         <FaqItem
           questionTitle="¿Dónde puedo dejar una reseña o comentario sobre el libro?"
@@ -97,7 +99,7 @@ Versión Impresa: Producto físico, ideal para coleccionistas y amantes del libr
         />
       </div>
       <hr className="w-[80vw] opacity-20" />
-      <h2 className="text-lg italic underline underline-offset-2">
+      <h2 className="md:text-center md:text-3xl text-lg italic underline underline-offset-2">
         Sobre Tito y sus libros
       </h2>
       <div>
